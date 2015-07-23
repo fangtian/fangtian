@@ -1,3 +1,2 @@
-*.zip
-*.rar
-*.gz
+# ignore codekit file
+config.codekit
