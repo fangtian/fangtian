@@ -461,9 +461,10 @@ header {
 
 #about {
 	margin-top: 90px;
-	// margin-bottom: 20px;
-	background: @gray url(../images/desk.jpg) no-repeat top center;
+	// background-color: @gray;
+	// background: @gray url(../images/desk.jpg) no-repeat top center;
 	color: white;
+	background: transparent;
 	font-family: @font-family-fangtian;
 	.title {
 		margin-top: 40px;
@@ -475,6 +476,11 @@ header {
 
 	#content {
 		height: 400px;
+	}
+
+	.parallax-window {
+		min-height: 400px;
+		background: transparent;
 	}
 	
 }

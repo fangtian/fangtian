@@ -488,8 +488,8 @@ header .dropdown ul li a {
 }
 #about {
   margin-top: 90px;
-  background: #555555 url(../images/desk.jpg) no-repeat top center;
   color: white;
+  background: transparent;
   font-family: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
 }
 #about .title {
@@ -501,6 +501,10 @@ header .dropdown ul li a {
 }
 #about #content {
   height: 400px;
+}
+#about .parallax-window {
+  min-height: 400px;
+  background: transparent;
 }
 #interaction {
   margin-top: 90px;

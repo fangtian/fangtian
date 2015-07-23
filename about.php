@@ -10,13 +10,6 @@
     <link href="_/css/bootstrap.css" rel="stylesheet">
     <!-- fangtian css -->
     <link href="_/css/fangtian.css" rel="stylesheet">
-    <!-- Important Owl stylesheet -->
-    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-     
-    <!-- Default Theme -->
-    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
-     
-    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,6 +28,14 @@
   <?php include "_/components/php/header.php" ?>
   
     <section id="about">
+      <div class="parallax-window" data-parallax="scroll" data-image-src="_/images/desk.jpg"></div>
+      </div>
+      <section>
+        <p>Pid ultrices mid ultrices aliquet porttitor. Tristique est turpis lacus. Nec mid, nisi eu magnis? Phasellus? Facilisis sed urna integer in. Pulvinar! Lacus enim dapibus facilisis, sociis ut turpis habitasse nunc a egestas placerat in mattis! Turpis sed? Sit pid magna sociis vel a porttitor, enim ac! Porttitor, lorem odio a tincidunt urna scelerisque, augue. Cursus, et penatibus, ridiculus tortor.</p>
+
+        <p>Urna sed lorem a mus duis cras mattis turpis arcu facilisis mattis tincidunt sagittis lorem, elit elit porttitor turpis? Risus purus! Mus urna tortor adipiscing dictumst, purus, sit turpis, amet mid nisi non hac in proin nunc turpis velit non mauris turpis natoque, aliquam, ac dictumst parturient lundium pulvinar est integer augue scelerisque scelerisque ultrices nascetur amet odio? Hac.</p>
+     </section>
+
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-md-offset-2">
@@ -61,7 +62,7 @@
         </div> <!-- row -->     
       </div> <!-- container -->
 
-    </section> <!-- savetime -->
+    </section> <!-- about -->
 
   
   
@@ -76,12 +77,20 @@
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="_/components/js/jQuery.js"></script>
+  <!-- // <script src="_/components/js/jQuery.js"></script> -->
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="_/js/bootstrap.js"></script>
   <script src="_/js/fangtian.js"></script>
   <!-- Include js plugin -->
-  <script src="owl-carousel/owl.carousel.js"></script>
+  <script src="_/js/parallax.min.js"></script>
+  <script>
+  jQuery(document).ready(function(){
+        $('.parallax-window').parallax({
+          // imageSrc: '_/images/desk.jpg'
+        });
+  });
+
+    </script>
 
   </body>
 </html>
