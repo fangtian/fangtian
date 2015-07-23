@@ -27,44 +27,91 @@
   <!-- include header.php -->
   <?php include "_/components/php/header.php" ?>
   
-    <section id="about">
-      <div class="parallax-window" data-parallax="scroll" data-image-src="_/images/desk.jpg"></div>
-      </div>
-      <section>
-        <p>Pid ultrices mid ultrices aliquet porttitor. Tristique est turpis lacus. Nec mid, nisi eu magnis? Phasellus? Facilisis sed urna integer in. Pulvinar! Lacus enim dapibus facilisis, sociis ut turpis habitasse nunc a egestas placerat in mattis! Turpis sed? Sit pid magna sociis vel a porttitor, enim ac! Porttitor, lorem odio a tincidunt urna scelerisque, augue. Cursus, et penatibus, ridiculus tortor.</p>
+  <div class="parallax-window" data-parallax="scroll" data-image-src="_/images/fangtian_about01.jpg"></div>
+  <div class="container">
+    <div class="title">
+      <h1>关于我们</h1>
+      <p>方田是一家成立于2014年7月，立志于用科技改变教育，面向全国招收学生的中小学教育机构。</p>
+    </div>
+  </div>
+  
 
-        <p>Urna sed lorem a mus duis cras mattis turpis arcu facilisis mattis tincidunt sagittis lorem, elit elit porttitor turpis? Risus purus! Mus urna tortor adipiscing dictumst, purus, sit turpis, amet mid nisi non hac in proin nunc turpis velit non mauris turpis natoque, aliquam, ac dictumst parturient lundium pulvinar est integer augue scelerisque scelerisque ultrices nascetur amet odio? Hac.</p>
-     </section>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 col-md-offset-2">
-            <div class="title">
-              <h1>关于我们</h1>
-            </div> <!-- title -->
-          </div>
-        </div> <!-- row -->
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-          <div id="content">
-            <p>test</p>
-            <p>方田是一家成立于2014年7月，立志于用科技改变教育，面向全国招收学生的中小学教育机构。</p>
-            <p>方田致力于为6-18岁的孩子提供高品质的线下和在线课外辅导，在合肥成立7个月以来，已成为合肥45中、48中、50中、科大附中、寿春中学等学校家长和学生最信赖的中小学课外辅导品牌。</p>
-            <p>2014年12月，方田完成了在线教育系统的相关技术研发和网站搭建，并在北京成立在线教学点，进行在线教育相关课程的设计。</p>
-            <p>2015年1月份，应长沙家长的强烈要求，方田在长沙建立分校，分校初建所有班级全部爆满，系统的教学体系，优秀的授课老师和严谨认真的教学方式获得了长沙家长的一致好评。</p>
-            <p>2015年6月份，北京在线教学点正式对外招生，借助科技的力量，为学生带来全新的上课模式，让学习效率更高，学生的兴趣更浓，成绩更好。</p>
-            <p>方田所有的分校及教学点均为全资拥有的直营模式，并提供统一、严格、完善的工作培训，确保我们能够向更多的孩子提供优秀的教学。</p>
-            <p>创办人田峰，毕业于北京大学，原北京大学辩论队队长，清华大学辩论队指导老师，希望杯全国优秀教练，华杯赛金牌教练，深圳学而思师资培训首席讲师，郑州学而思分校第一任校长，全国最大在线教育品牌海边网创始人。著有《小学奥数总复习教程》、《初中几何辅助线秘籍》、《奥数同步辅导》。</p>
+  <div class="container">
+    <div class="box-whatwedo">
+      <div class="row row-edge">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  ">
+          <h2>我们做什么</h2>
+        </div>
+        <div class="row row-edge">
+          <div class="col-md-12">
+            <p class="col-md-4 col-sm-6">
+              <img class="img-responsive" src="_/images/fangtian_whatwedo.jpg" alt="我们做什么">
+            </p>
+            <h3>方田致力于为6-18岁的孩子提供高品质的线下和在线课外辅导，在合肥成立7个月以来，已成为合肥45中、48中、50中、科大附中、寿春中学等学校家长和学生最信赖的中小学课外辅导品牌。</h3>
+            <p>2014年12月，方田完成了在线教育系统的相关技术研发和网站搭建，并在北京成立在线教学点，进行在线教育相关课程的设计。2015年1月份，应长沙家长的强烈要求，方田在长沙建立分校，分校初建所有班级全部爆满，系统的教学体系，优秀的授课老师和严谨认真的教学方式获得了长沙家长的一致好评。2015年6月份，北京在线教学点正式对外招生，借助科技的力量，为学生带来全新的上课模式，让学习效率更高，学生的兴趣更浓，成绩更好。
+            </p>
           </div>
         </div>
-          
-          
+      </div> <!-- row -->
+    </div> <!-- box-whatwedo -->
+  </div> <!-- container -->
+  <div class="parallax-window" data-parallax="scroll" data-image-src="_/images/fangtian_about02.jpg">
+    <div class="container">
+      <div class="box-workteam">
+        <div class="row">
+          <h2>我们的老师</h2>
+        </div> <!-- row -->
+        <div class="row">
+          <div class="team_list">
+            <div class="item col-md-3 col-sm-6">
+              <div class="team_list_photo">
+                <a href="">
+                  <img class="img-responsive" src="_/images/caoyuan.png" alt="">
+                </a>
+              </div>
+              <h3 class="team_list_name">曹媛老师</h3>
+              <p class="team_list_from">毕业于清华大学</p>
+              <p class="team_list_cv">在深圳从事过四年教学工作，有丰富小学教学经验，有26 位学生获得过希望杯、华杯赛全国奖项，5位学生获得过深圳区特等奖。</p>
+            </div>
+            <div class="item col-md-3 col-sm-6">
+              <div class="team_list_photo">
+                <a href="">
+                  <img class="img-responsive" src="_/images/chunxue.png" alt="">
+                </a>
+              </div>
+              <h3 class="team_list_name">王春雪老师</h3>
+              <p class="team_list_from">数学与应用数学（师范）专业</p>
+              <p class="team_list_cv">在深圳从事过四年教学工作，有丰富小学教学经验，有26 位学生获得过希望杯、华杯赛全国奖项，5位学生获得过深圳区特等奖。</p>
+            </div>
+            <div class="item col-md-3 col-sm-6">
+              <div class="team_list_photo">
+                <a href="">
+                  <img class="img-responsive" src="_/images/jianwei.png" alt="">
+                </a>
+              </div>
+              <h3 class="team_list_name">孔建伟老师</h3>
+              <p class="team_list_from">毕业于河北工业大学</p>
+              <p class="team_list_cv">七年教学经验。曾任深圳学而思学科部主管。所教学生48人升入深圳四大名校。37人在全国性质杯赛中获得一等奖。希望杯、华杯赛优秀教练员。</p>
+            </div>
+            <div class="item col-md-3 col-sm-6">
+              <div class="team_list_photo">
+                <a href="">
+                  <img class="img-responsive" src="_/images/xiuli.png" alt="">
+                </a>
+              </div>
+              <h3 class="team_list_name">窦晴老师</h3>
+              <p class="team_list_from">毕业于东南大学，数学专业</p>
+              <p class="team_list_cv">三年北京初高中教学经验，有31位学生考入人大附中、清华附中和北大附中。学生家长眼中最靠谱，最值得信任的老师。</p>
+            </div>
 
-        </div> <!-- row -->     
-      </div> <!-- container -->
-
-    </section> <!-- about -->
-
+          </div>
+        </div>
+        
+      </div> <!-- box-workteam -->
+      
+    </div> <!-- container -->
+  </div> <!-- parallax-window -->
+  
   
   
 
