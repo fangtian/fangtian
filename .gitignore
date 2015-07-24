@@ -1,2 +1,3 @@
 # ignore codekit file
 config.codekit
+.DS_Store
