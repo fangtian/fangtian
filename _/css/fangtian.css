@@ -488,23 +488,80 @@ header .dropdown ul li a {
 }
 #about {
   margin-top: 90px;
-  color: green;
-  background: transparent;
   font-family: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
 }
-#about .title {
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-#about p {
-  letter-spacing: 5px;
-}
-#about #content {
-  height: 400px;
+@media (max-width: 767px) {
+  #about {
+    margin-top: 50px;
+  }
 }
 #about .parallax-window {
-  min-height: 400px;
+  min-height: 350px;
   background: transparent;
+}
+#about .title {
+  margin: 10px;
+  position: absolute;
+  top: 200px;
+  color: #777777;
+}
+@media (max-width: 767px) {
+  #about .title {
+    top: 100px;
+  }
+}
+#about .title h1 {
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+}
+#about .title p {
+  letter-spacing: 5px;
+  font-size: 24px;
+  color: #888888;
+}
+#about .box-whatwedo {
+  background-color: #337ab7;
+  padding: 30px 50px 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+#about .box-whatwedo h2 {
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+#about .box-whatwedo h3 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+#about .box-whatwedo p {
+  line-height: 24px;
+}
+#about .box-workteam {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#about .box-workteam h2 {
+  margin-left: 20px;
+  padding-left: 20px;
+  letter-spacing: 10px;
+}
+#about .box-workteam h3 {
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 0;
+  letter-spacing: 5px;
+  color: #5bc0de;
+}
+#about .box-workteam p {
+  padding: 0 20px;
+  color: #555555;
+  line-height: 24px;
+}
+#about .box-workteam .team_list_cv {
+  color: #888888;
 }
 #interaction {
   margin-top: 90px;

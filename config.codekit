@@ -1776,6 +1776,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/images\/fangtian_about01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131426,
+		"inputAbbreviatedPath": "\/_\/images\/fangtian_about01.jpg",
+		"outputAbbreviatedPath": "\/_\/images\/fangtian_about01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/fangtian_about02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143673,
+		"inputAbbreviatedPath": "\/_\/images\/fangtian_about02.jpg",
+		"outputAbbreviatedPath": "\/_\/images\/fangtian_about02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/fangtian_whatwedo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45304,
+		"inputAbbreviatedPath": "\/_\/images\/fangtian_whatwedo.jpg",
+		"outputAbbreviatedPath": "\/_\/images\/fangtian_whatwedo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/images\/forget_curve.png": {
 		"fileType": 32768,
 		"ignore": 0,

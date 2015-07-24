@@ -461,26 +461,84 @@ header {
 
 #about {
 	margin-top: 90px;
-	// background-color: @gray;
-	// background: @gray url(../images/desk.jpg) no-repeat top center;
-	color: green;
-	background: transparent;
+	@media (max-width: @screen-xs-max) {
+		margin-top: 50px;
+	}
 	font-family: @font-family-fangtian;
-	.title {
-		margin-top: 40px;
-		margin-bottom: 30px;
-	}
-	p {
-		letter-spacing: 5px;
-	}
-
-	#content {
-		height: 400px;
-	}
 
 	.parallax-window {
-		min-height: 400px;
+		min-height: 350px;
 		background: transparent;
+	}
+
+	.title {
+		margin: 10px;
+		position: absolute;
+		top: 200px;
+		@media (max-width: @screen-xs-max) {
+			top: 100px;
+		}
+		color: @gray-light;
+		h1 {
+			letter-spacing: 10px;
+			margin-bottom: 20px;
+		}
+		p {
+			letter-spacing: 5px;
+			font-size: 24px;
+			color: lighten(@gray, 20%);
+
+		}
+	}
+
+	.box-whatwedo {
+		background-color: @brand-primary;
+		padding: 30px 50px 60px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		color: white;
+		h2 {
+			letter-spacing: 10px;
+			margin-bottom: 30px;
+		}
+		h3 {
+			font-size: 16px;
+			line-height: 24px;
+			letter-spacing: 1px;
+		}
+		p {
+			line-height: 24px;
+		}
+	}
+
+	.box-workteam {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		background-color: rgba(255, 255, 255, 0.8);
+		// min-height: 400px;
+		h2 {
+			margin-left: 20px;
+			padding-left: 20px;
+			letter-spacing: 10px;
+		}
+
+		h3 {
+			font-size: 20px;
+			padding-left: 20px;
+			margin-top: 0;
+			letter-spacing: 5px;
+			color: @brand-info;
+		}
+
+		p {
+			padding: 0 20px;
+			color: @gray;
+			line-height: 24px;
+		}
+		.team_list_cv {
+			color: lighten(@gray, 20%)
+		}
+
 	}
 	
 }
