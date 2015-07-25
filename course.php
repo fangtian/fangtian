@@ -65,7 +65,7 @@
                 </div>
               </div>
               <div class="col-md-2">
-                <span class="badge">学位<br>1197人</span>
+                <span class="badge">学位<br>97人</span>
                 <button class="btn btn-info" type="button">
                   我要试听
                 </button>
