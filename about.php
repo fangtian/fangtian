@@ -63,7 +63,7 @@
         </div> <!-- row -->
         <div class="row">
           <div class="team_list">
-            <div class="item col-md-3 col-sm-6">
+            <div class="item col-md-4 col-sm-6">
               <div class="team_list_photo">
                 <a href="">
                   <img class="img-responsive" src="_/images/caoyuan.png" alt="">
@@ -73,7 +73,38 @@
               <p class="team_list_from">毕业于清华大学</p>
               <p class="team_list_cv">在深圳从事过四年教学工作，有丰富小学教学经验，有26 位学生获得过希望杯、华杯赛全国奖项，5位学生获得过深圳区特等奖。</p>
             </div>
-            <div class="item col-md-3 col-sm-6">
+            <div class="item col-md-4 col-sm-6">
+              <div class="team_list_photo">
+                <a href="">
+                  <img class="img-responsive" src="_/images/kenan.png" alt="">
+                </a>
+              </div>
+              <h3 class="team_list_name">曹克楠老师</h3>
+              <p class="team_list_from">毕业于北京航空航天大学</p>
+              <p class="team_list_cv">方田全职教师，初中部负责人。北京人大附早培班冲刺训练营创始人，所教学员100%进入人大附中早培班。联赛优秀教练，华杯赛优秀教练员。</p>
+            </div>
+            <div class="item col-md-4 col-sm-6">
+              <div class="team_list_photo">
+                <a href="">
+                  <img class="img-responsive" src="_/images/hongyuan.png" alt="">
+                </a>
+              </div>
+              <h3 class="team_list_name">许宏远老师</h3>
+              <p class="team_list_from">毕业于中国科学技术大学</p>
+              <p class="team_list_cv">方田全职老师，四五年级负责人。超常班教练，2015年所带四年级学员华杯赛参赛者初赛通过率100%。</p>
+            </div>
+            <div class="clearfix visible-md-block"></div>
+            <div class="item col-md-4 col-sm-6">
+              <div class="team_list_photo">
+                <a href="">
+                  <img class="img-responsive" src="_/images/yukun.png" alt="">
+                </a>
+              </div>
+              <h3 class="team_list_name">俞堃老师</h3>
+              <p class="team_list_from">毕业于中国科学技术大学</p>
+              <p class="team_list_cv">方田全职骨干教师。希望杯教练员，小升初专家，尖端班教练员。长期在论坛分享知识点和习题等资料，受到家长们的高度关注和广泛认可。</p>
+            </div>
+            <div class="item col-md-4 col-sm-6">
               <div class="team_list_photo">
                 <a href="">
                   <img class="img-responsive" src="_/images/chunxue.png" alt="">
@@ -83,7 +114,7 @@
               <p class="team_list_from">数学与应用数学（师范）专业</p>
               <p class="team_list_cv">在深圳从事过四年教学工作，有丰富小学教学经验，有26 位学生获得过希望杯、华杯赛全国奖项，5位学生获得过深圳区特等奖。</p>
             </div>
-            <div class="item col-md-3 col-sm-6">
+            <div class="item col-md-4 col-sm-6">
               <div class="team_list_photo">
                 <a href="">
                   <img class="img-responsive" src="_/images/jianwei.png" alt="">
@@ -93,19 +124,9 @@
               <p class="team_list_from">毕业于河北工业大学</p>
               <p class="team_list_cv">七年教学经验。曾任深圳学而思学科部主管。所教学生48人升入深圳四大名校。37人在全国性质杯赛中获得一等奖。希望杯、华杯赛优秀教练员。</p>
             </div>
-            <div class="item col-md-3 col-sm-6">
-              <div class="team_list_photo">
-                <a href="">
-                  <img class="img-responsive" src="_/images/xiuli.png" alt="">
-                </a>
-              </div>
-              <h3 class="team_list_name">窦晴老师</h3>
-              <p class="team_list_from">毕业于东南大学，数学专业</p>
-              <p class="team_list_cv">三年北京初高中教学经验，有31位学生考入人大附中、清华附中和北大附中。学生家长眼中最靠谱，最值得信任的老师。</p>
-            </div>
 
-          </div>
-        </div>
+          </div> <!-- team_list -->
+        </div> <!-- row -->
         
       </div> <!-- box-workteam -->
       
