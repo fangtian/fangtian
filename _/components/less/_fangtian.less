@@ -302,34 +302,49 @@ header {
 }
 #owl-fangtian {
 	.livecourse_item {
-		.transition(all 0.2s linear);
-		background: @brand-primary;
-		.opacity(.9);
-		height: 200px;
-		// width: 100%;
-		text-align: center;
-		padding: 0;
-		margin: 20px;
-		// .border-radius(20px);
-		&:hover {
-			background: @brand-info;
-			.opacity(1);
-		}
 		a {
-			// height: 200px;
-			// display: block;
-    		padding: 52px 20px 20px 20px;
+			
 			text-decoration: none;
-			color: white;
-			font-size: 40px;
-			h5 {
-				font-size: 20px;
+			.cover {
+				max-height: 200px;
+				img {
+					max-width: 200px;
+					.transition(all 0.2s linear);
+					.opacity(.7);
+				}
+				figure {
+					color: white;
+					position: relative;
+					bottom: 130px;
+					font-size: 50px;
+					.opacity(.4);
+				}
+			}
+			
+			text-align: center;
+
+			.desc {
+				color: white;
+			}
+
+			&:hover {
+				.transition(all 0.2s linear);
+				img {
+					.opacity(1);
+				}
+				figure {
+					color: black;
+					.transition(all 0.2s linear);
+					.opacity(.4);
+				}
+				.desc {
+					.transition(all 0.2s linear);
+					color: @brand-info;
+				}
+
 			}
 		}
-
 	}
-
-	
 }
 
 #teachers {
