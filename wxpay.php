@@ -59,6 +59,11 @@
             <div class="return">
               <a href="pay.php"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 选择其他方式支付</a>
             </div>
+            <div class="confirm">
+              <div id="pay_success" class="btn btn-success col-md-6">如果支付成功后页面没有跳转到我的个人中心请点击这里</div>
+              <div id="pay_fail" class="btn btn-danger col-md-6">支付失败，您无法完成支付请点击这里</div>
+            </div> <!-- confirm -->
+
           </div> <!-- wxpay_detial -->
   			</div> <!-- row -->
   		</div> <!-- content -->
