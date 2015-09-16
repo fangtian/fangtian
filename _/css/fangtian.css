@@ -70,6 +70,14 @@ header .dropdown ul li a {
   padding: 3px 20px;
   margin: 10px 0;
 }
+header #dropdown-wx-menu .wxqr {
+  border: none;
+  margin-bottom: 0;
+}
+header #dropdown-wx-menu .wx_desc {
+  text-align: center;
+  color: #d9534f;
+}
 #home .intro {
   padding: 140px 0 0px;
   background-color: #27272b;

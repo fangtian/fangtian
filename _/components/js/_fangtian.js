@@ -53,5 +53,14 @@ jQuery(document).ready(function(){
         // Call the scroll function
         goToByScroll($(this).parent().attr("id")); 
 	});
+
+	// ---------------------------------------------------------
+	// 关注微信
+	// ---------------------------------------------------------
+	$('#dropdown_wx').hover(function () {
+	 	$('#dropdown-wx-menu').fadeIn();
+	}, function () {
+		$('#dropdown-wx-menu').fadeOut('fast');
+	});
 });
 

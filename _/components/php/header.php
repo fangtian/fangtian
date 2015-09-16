@@ -20,6 +20,20 @@
 	        <li><a href="course.php">选课中心</a></li>
 	        <li><a href="interaction.php">交流中心</a></li>
 	        <li><a href="about.php">关于我们</a></li>
+	        <li class="hidden-sm hidden-xs">
+	        	<a id="dropdown_wx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                关注官方微信 <span class="caret"></span>
+                </a>
+	            <ul id="dropdown-wx-menu" class="dropdown-menu" role="menu">
+	            	<div class="wxqr thumbnail">
+	            		<img src="_/images/wx_qrcode.jpg" alt="">
+	            	</div>
+	            	<div class="wx_desc">
+	            		扫码二维码关注
+	            	</div>
+	            </ul>
+	        </li> <!-- 关注官方微信 -->
+	        
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="#" data-toggle="modal" data-target="#registerModal">注册</a></li>
