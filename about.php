@@ -10,6 +10,11 @@
     <link href="_/css/bootstrap.css" rel="stylesheet">
     <!-- fangtian css -->
     <link href="_/css/fangtian.css" rel="stylesheet">
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+     
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,8 +67,8 @@
           <h2>我们的老师</h2>
         </div> <!-- row -->
         <div class="row">
-          <div class="team_list">
-            <div class="item col-md-4 col-sm-6">
+          <div id="owl-about" class="team_list">
+            <div class="item">
               <div class="team_list_photo">
                 <a href="">
                   <img class="img-responsive" src="_/images/caoyuan.png" alt="">
@@ -73,7 +78,18 @@
               <p class="team_list_from">毕业于清华大学</p>
               <p class="team_list_cv">在深圳从事过四年教学工作，有丰富小学教学经验，有26 位学生获得过希望杯、华杯赛全国奖项，5位学生获得过深圳区特等奖。</p>
             </div>
-            <div class="item col-md-4 col-sm-6">
+            <div class="item">
+              <div class="team_list_photo">
+                <a href="">
+                  <img class="img-responsive" src="_/images/maohua.png" alt="">
+                </a>
+              </div>
+              <h3 class="team_list_name">孙茂华老师</h3>
+              <p class="team_list_from">毕业于北京大学</p>
+              <p class="team_list_cv">四年教学经验，教育规划师，有25名学生考入北大清华在内的国内知名学府，4名学生考入哈佛剑桥在内的国外高校。所带初中课程中60多名学生物理单科满分。</p>
+            </div>
+
+            <div class="item">
               <div class="team_list_photo">
                 <a href="">
                   <img class="img-responsive" src="_/images/kenan.png" alt="">
@@ -83,7 +99,7 @@
               <p class="team_list_from">毕业于北京航空航天大学</p>
               <p class="team_list_cv">方田全职教师，初中部负责人。北京人大附早培班冲刺训练营创始人，所教学员100%进入人大附中早培班。联赛优秀教练，华杯赛优秀教练员。</p>
             </div>
-            <div class="item col-md-4 col-sm-6">
+            <div class="item">
               <div class="team_list_photo">
                 <a href="">
                   <img class="img-responsive" src="_/images/hongyuan.png" alt="">
@@ -94,7 +110,7 @@
               <p class="team_list_cv">方田全职老师，四五年级负责人。超常班教练，2015年所带四年级学员华杯赛参赛者初赛通过率100%。</p>
             </div>
             <div class="clearfix visible-md-block"></div>
-            <div class="item col-md-4 col-sm-6">
+            <div class="item">
               <div class="team_list_photo">
                 <a href="">
                   <img class="img-responsive" src="_/images/yukun.png" alt="">
@@ -104,7 +120,7 @@
               <p class="team_list_from">毕业于中国科学技术大学</p>
               <p class="team_list_cv">方田全职骨干教师。希望杯教练员，小升初专家，尖端班教练员。长期在论坛分享知识点和习题等资料，受到家长们的高度关注和广泛认可。</p>
             </div>
-            <div class="item col-md-4 col-sm-6">
+            <div class="item">
               <div class="team_list_photo">
                 <a href="">
                   <img class="img-responsive" src="_/images/chunxue.png" alt="">
@@ -114,7 +130,7 @@
               <p class="team_list_from">数学与应用数学（师范）专业</p>
               <p class="team_list_cv">在深圳从事过四年教学工作，有丰富小学教学经验，有26 位学生获得过希望杯、华杯赛全国奖项，5位学生获得过深圳区特等奖。</p>
             </div>
-            <div class="item col-md-4 col-sm-6">
+            <div class="item">
               <div class="team_list_photo">
                 <a href="">
                   <img class="img-responsive" src="_/images/jianwei.png" alt="">
@@ -152,11 +168,22 @@
   <script src="_/js/fangtian.js"></script>
   <!-- Include js plugin -->
   <script src="_/js/parallax.min.js"></script>
+  <script src="owl-carousel/owl.carousel.js"></script>
   <script>
   jQuery(document).ready(function(){
         $('.parallax-window').parallax({
           // imageSrc: '_/images/desk.jpg'
         });
+        var owl = jQuery("#owl-about");
+ 
+    owl.owlCarousel({
+        autoPlay : 3000,
+        items : 4, //10 items above 1000px browser width
+        itemsDesktop : [1000,3], //5 items between 1000px and 901px
+        itemsDesktopSmall : [900,2], // betweem 900px and 601px
+        itemsTablet: [600,1], //2 items between 600 and 0
+        itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+    });
   });
 
     </script>

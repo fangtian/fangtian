@@ -63,6 +63,27 @@
               <div class="teacher_item clearfix">
                 <div class="col-md-3 col-sm-4 col-xs-5">
                   <div class="teacher_pic thumbnail">
+                   <img src="_/images/maohua.png" alt="孙茂华老师" class="img-rounded">
+                   <span class="teacher_name">孙茂华老师</span>
+                  </div>
+                </div>
+                <div class="col-md-9 col-sm-8 col-xs-7">
+                  <div class="teacher_cv">
+                    <p class="edu_bg">毕业于<strong>北京大学</strong></p>
+                    <p class="cv">四年教学经验，教育规划师，有25名学生考入北大清华在内的国内知名学府，4名学生考入哈佛剑桥在内的国外高校。所带初中课程中60多名学生物理单科满分。</p>
+                    <p class="special"><strong>教学特点：</strong>不仅注重激发学生的学习兴趣，更注重培养良好的学习习惯；不仅努力提高学生学习效率更注重树立学生的自信。以其严禁的逻辑，丰富的知识和感染力把同学领进物理之门。</p>
+                  </div>
+                  <div class="teacher_video">
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#maohuaModal">
+                      <span class="video_demo"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> 教学视频</span>
+                    </button>
+                    
+                  </div>
+                </div>  
+              </div> <!-- teacher_item -->
+              <div class="teacher_item clearfix">
+                <div class="col-md-3 col-sm-4 col-xs-5">
+                  <div class="teacher_pic thumbnail">
                    <img src="_/images/kenan.png" alt="曹克楠老师" class="img-rounded">
                    <span class="teacher_name">曹克楠老师</span>
                   </div>
@@ -182,6 +203,17 @@
       <div class="modal-content">
         <div class="modal-body" style="height:357px;">
           <script id="autoJs71bd5eaea2" type="text/javascript">var pNode=document.getElementById("autoJs71bd5eaea2").parentNode,pnd=pNode.style,dWidth=pnd.width,pHeight=pnd.height,dHeight=ReCallHeight(pHeight,pNode);function ReCallHeight(e,t){if(e==""||e=="100%"){var n=t.parentNode,r=t.parentNode.style.height;if(r)return r;var i=ReCallHeight(r,n);return i}return e} var letvcloud_player_conf =  {"uu":"94196978cb","vu":"71bd5eaea2","auto_play":1,"gpcflag":1,"width": dWidth,"height": dHeight};</script><script type="text/javascript" src="http://yuntv.letv.com/bcloud.js"></script>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="maohuaModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body" style="height:357px;">
+          <script id="autoJs71bd5eaea2" type="text/javascript">var pNode=document.getElementById("autoJs71bd5eaea2").parentNode,pnd=pNode.style,dWidth=pnd.width,pHeight=pnd.height,dHeight=ReCallHeight(pHeight,pNode);function ReCallHeight(e,t){if(e==""||e=="100%"){var n=t.parentNode,r=t.parentNode.style.height;if(r)return r;var i=ReCallHeight(r,n);return i}return e} var letvcloud_player_conf =  {"uu":"94196978cb","vu":"6ca7ef09f3","auto_play":1,"gpcflag":1,"width": dWidth,"height": dHeight};</script><script type="text/javascript" src="http://yuntv.letv.com/bcloud.js"></script>
         </div>
         <div class="modal-footer">
         </div>

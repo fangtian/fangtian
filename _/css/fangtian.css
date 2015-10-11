@@ -441,6 +441,9 @@ header #dropdown-wx-menu .wx_desc {
 #teachers #teacher_desc .teacher_item .teacher_video {
   margin-bottom: 20px;
 }
+#teachers #teacher_desc .teacher_item .teacher_video .btn:focus {
+  outline: none;
+}
 #notebook {
   margin-top: 90px;
   background: #000000 url(../images/desk.jpg) no-repeat top center;
