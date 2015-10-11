@@ -1699,24 +1699,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_\/images\/caoyuan.png": {
+	"\/_\/images\/alipay.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 198533,
-		"inputAbbreviatedPath": "\/_\/images\/caoyuan.png",
-		"outputAbbreviatedPath": "\/_\/images\/caoyuan.png",
+		"initialSize": 68961,
+		"inputAbbreviatedPath": "\/_\/images\/alipay.png",
+		"outputAbbreviatedPath": "\/_\/images\/alipay.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_\/images\/chunxue.png": {
+	"\/_\/images\/alipay_icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 185879,
-		"inputAbbreviatedPath": "\/_\/images\/chunxue.png",
-		"outputAbbreviatedPath": "\/_\/images\/chunxue.png",
+		"initialSize": 39691,
+		"inputAbbreviatedPath": "\/_\/images\/alipay_icon.png",
+		"outputAbbreviatedPath": "\/_\/images\/alipay_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/course_cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79426,
+		"inputAbbreviatedPath": "\/_\/images\/course_cover.jpg",
+		"outputAbbreviatedPath": "\/_\/images\/course_cover.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1842,17 +1853,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_\/images\/jianwei.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 232172,
-		"inputAbbreviatedPath": "\/_\/images\/jianwei.png",
-		"outputAbbreviatedPath": "\/_\/images\/jianwei.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_\/images\/level_4.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1952,6 +1952,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/images\/phone-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21909,
+		"inputAbbreviatedPath": "\/_\/images\/phone-bg.png",
+		"outputAbbreviatedPath": "\/_\/images\/phone-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/images\/portrait.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1959,6 +1970,17 @@
 		"initialSize": 28275,
 		"inputAbbreviatedPath": "\/_\/images\/portrait.jpg",
 		"outputAbbreviatedPath": "\/_\/images\/portrait.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/qrcode.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38458,
+		"inputAbbreviatedPath": "\/_\/images\/qrcode.png",
+		"outputAbbreviatedPath": "\/_\/images\/qrcode.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1992,6 +2014,28 @@
 		"initialSize": 1370,
 		"inputAbbreviatedPath": "\/_\/images\/up-arrow.png",
 		"outputAbbreviatedPath": "\/_\/images\/up-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/wx_qrcode.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26786,
+		"inputAbbreviatedPath": "\/_\/images\/wx_qrcode.jpg",
+		"outputAbbreviatedPath": "\/_\/images\/wx_qrcode.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/wxpay_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32930,
+		"inputAbbreviatedPath": "\/_\/images\/wxpay_icon.png",
+		"outputAbbreviatedPath": "\/_\/images\/wxpay_icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2158,6 +2202,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Index_about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Index_about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Index_teachers.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Index_teachers.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/interaction.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2254,6 +2316,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/pay.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pay.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/player.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2295,6 +2366,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/userinfo.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wxpay.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wxpay.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

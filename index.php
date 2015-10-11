@@ -145,77 +145,95 @@
         </div><!-- row -->
         <div class="row">
           <div id="owl-fangtian" class="owl-carousel owl-theme">
+         
             <div class ="item livecourse_item">
-              <a href="#" title="四升五暑期基础班">
-                <figure>
+              <a class="item_link" href="#" title="四升五暑期基础班">
+                <div class="cover">
+                  <img src="_/images/course_cover.jpg" alt="四升五暑期基础班">
+                  <figure>
                   <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
-                </figure>
-                  <h5>四升五暑期</h5>
-                  <h5>基础班</h5>
-              </a>
-            </div>
+                  </figure>
+                </div> <!-- cover -->
+                <div class="desc">
+                  <h5>四升五暑期基础班</h5>
+                </div> <!-- desc -->
+              </a> <!-- item_link -->
+            </div> <!-- livecourse_item -->
             <div class ="item livecourse_item">
-              <a href="#" title="四升五暑期基础班">
-                <figure>
+              <a class="item_link" href="#" title="四升五暑期基础班">
+                <div class="cover">
+                  <img src="_/images/course_cover.jpg" alt="四升五暑期基础班">
+                  <figure>
                   <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
-                </figure>
-                  <h5>四升五暑期</h5>
-                  <h5>基础班</h5>
-              </a>
-            </div>
+                  </figure>
+                </div> <!-- cover -->
+                <div class="desc">
+                  <h5>四升五暑期基础班</h5>
+                </div> <!-- desc -->
+              </a> <!-- item_link -->
+            </div> <!-- livecourse_item -->
             <div class ="item livecourse_item">
-              <a href="#" title="四升五暑期基础班">
-                <figure>
+              <a class="item_link" href="#" title="四升五暑期基础班">
+                <div class="cover">
+                  <img src="_/images/course_cover.jpg" alt="四升五暑期基础班">
+                  <figure>
                   <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
-                </figure>
-                  <h5>四升五暑期</h5>
-                  <h5>基础班</h5>
-              </a>
-            </div>
+                  </figure>
+                </div> <!-- cover -->
+                <div class="desc">
+                  <h5>四升五暑期基础班</h5>
+                </div> <!-- desc -->
+              </a> <!-- item_link -->
+            </div> <!-- livecourse_item -->
             <div class ="item livecourse_item">
-              <a href="#" title="四升五暑期基础班">
-                <figure>
+              <a class="item_link" href="#" title="四升五暑期基础班">
+                <div class="cover">
+                  <img src="_/images/course_cover.jpg" alt="四升五暑期基础班">
+                  <figure>
                   <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
-                </figure>
-                  <h5>四升五暑期</h5>
-                  <h5>基础班</h5>
-              </a>
-            </div>
+                  </figure>
+                </div> <!-- cover -->
+                <div class="desc">
+                  <h5>四升五暑期基础班</h5>
+                </div> <!-- desc -->
+              </a> <!-- item_link -->
+            </div> <!-- livecourse_item -->
             <div class ="item livecourse_item">
-              <a href="#" title="四升五暑期基础班">
-                <figure>
+              <a class="item_link" href="#" title="四升五暑期基础班">
+                <div class="cover">
+                  <img src="_/images/course_cover.jpg" alt="四升五暑期基础班">
+                  <figure>
                   <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
-                </figure>
-                  <h5>四升五暑期</h5>
-                  <h5>基础班</h5>
-              </a>
-            </div>
+                  </figure>
+                </div> <!-- cover -->
+                <div class="desc">
+                  <h5>四升五暑期基础班</h5>
+                </div> <!-- desc -->
+              </a> <!-- item_link -->
+            </div> <!-- livecourse_item -->
             <div class ="item livecourse_item">
-              <a href="#" title="四升五暑期基础班">
-                <figure>
+              <a class="item_link" href="#" title="四升五暑期基础班">
+                <div class="cover">
+                  <img src="_/images/course_cover.jpg" alt="四升五暑期基础班">
+                  <figure>
                   <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
-                </figure>
-                  <h5>四升五暑期</h5>
-                  <h5>基础班</h5>
-              </a>
-            </div>
-            <div class ="item livecourse_item">
-              <a href="#" title="四升五暑期基础班">
-                <figure>
-                  <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
-                </figure>
-                  <h5>四升五暑期</h5>
-                  <h5>基础班</h5>
-              </a>
-            </div>
+                  </figure>
+                </div> <!-- cover -->
+                <div class="desc">
+                  <h5>四升五暑期基础班</h5>
+                </div> <!-- desc -->
+              </a> <!-- item_link -->
+            </div> <!-- livecourse_item -->
 
-          </div>
+
+
+          </div> <!-- owl-fangtian -->
 
           
         
           
-        </div>
-      </div>
+        </div> <!-- row -->
+      </div> <!-- container -->
     </section> <!-- livecourse -->
 
     

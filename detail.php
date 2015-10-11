@@ -92,7 +92,7 @@
                     <h5 class="btn btn-default col-md-2 col-sm-4 col-xs-6">曹媛</h5>
                     <h5 class="btn btn-default col-md-2 col-sm-4 col-xs-6 " disabled="disabled">吴晓宁</h5>
                   </div>
-                </div>
+                </div> <!-- row -->
 
                 <div class="row">
                   <div class="choose_time">
@@ -145,8 +145,14 @@
                       </tbody>
                     </table>
                   </div>
-                </div>
+                </div> <!-- row -->
                 
+                <div class="row visible-lg visible-md">
+                  <div class="copy_buy_lesson">
+                    <h4>报名：</h4>
+                    <h5 class="btn btn-warning">购买课程</h5>
+                  </div>
+                </div> <!-- row -->
               </div>
             </div>
           </div>
@@ -365,7 +371,7 @@
                 </div><!-- row -->
               </div>
             </div>
-          </div>
+          </div> <!-- row -->
 
         </div>
       </section>

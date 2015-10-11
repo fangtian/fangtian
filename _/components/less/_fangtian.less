@@ -35,6 +35,7 @@ header {
 	// 	background: url(../images/header_xs.jpg) no-repeat fixed 50% 0% transparent;
 	// 	height: 200px;
 	// }
+	
 
 	.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 		color: @brand-danger;
@@ -90,6 +91,17 @@ header {
 		ul li a {
 			padding: 3px 20px;
 			margin: 10px 0;
+		}
+	}
+
+	#dropdown-wx-menu {
+		.wxqr {
+			border: none;
+			margin-bottom: 0;
+		}
+		.wx_desc {
+			text-align: center;
+			color: @brand-danger;
 		}
 	}
 }
@@ -302,34 +314,49 @@ header {
 }
 #owl-fangtian {
 	.livecourse_item {
-		.transition(all 0.2s linear);
-		background: @brand-primary;
-		.opacity(.9);
-		height: 200px;
-		// width: 100%;
-		text-align: center;
-		padding: 0;
-		margin: 20px;
-		// .border-radius(20px);
-		&:hover {
-			background: @brand-info;
-			.opacity(1);
-		}
 		a {
-			// height: 200px;
-			// display: block;
-    		padding: 52px 20px 20px 20px;
+			
 			text-decoration: none;
-			color: white;
-			font-size: 40px;
-			h5 {
-				font-size: 20px;
+			.cover {
+				max-height: 200px;
+				img {
+					max-width: 200px;
+					.transition(all 0.2s linear);
+					.opacity(.7);
+				}
+				figure {
+					color: white;
+					position: relative;
+					bottom: 130px;
+					font-size: 50px;
+					.opacity(.4);
+				}
+			}
+			
+			text-align: center;
+
+			.desc {
+				color: white;
+			}
+
+			&:hover {
+				.transition(all 0.2s linear);
+				img {
+					.opacity(1);
+				}
+				figure {
+					color: black;
+					.transition(all 0.2s linear);
+					.opacity(.4);
+				}
+				.desc {
+					.transition(all 0.2s linear);
+					color: @brand-info;
+				}
+
 			}
 		}
-
 	}
-
-	
 }
 
 #teachers {
@@ -387,6 +414,9 @@ header {
 			}
 			.teacher_video {
 				margin-bottom: 20px;
+				.btn:focus {
+					outline: none;
+				}
 			}
 		}
 	}
@@ -835,6 +865,88 @@ header {
 		}
 	}
 	
+}
+
+#pay {
+	background-color: @gray-lighter;
+	margin-top: 100px;
+	@media (max-width: @screen-xs-max) {
+		margin-top: 50px;
+	}
+
+	.order_info {
+
+		margin: 10px;
+		line-height: 30px;
+		
+		.sum {
+			color: @brand-danger;
+			font-size: 24px;
+		}
+
+		.order_detail {
+			text-align: right;
+			.order_desc {
+				color: @brand-info;
+			}
+		}
+	}
+
+	.choose_method {
+		text-align: center;
+		margin: 10px;
+		.icon {
+			background-color: white;
+			margin: 10px 50px;
+			.border-radius(20);
+			min-height: 200px;
+			padding: 50px 0;
+		}
+
+		.title {
+			margin: 20px 0 30px 0;
+		}
+	}
+
+	.wxpay_detial {
+		background-color: white;
+		border-top: 4px solid @brand-info;
+		margin: 10px 10px 40px 10px;
+		.head {
+			font-family: @font-family-fangtian;
+			margin: 10px 0 10px 20px;
+		}
+		.qrcode {
+			margin: 50px;
+			text-align: center;
+			img {
+				border: 1px solid @gray-lighter;
+			}
+		}
+		.qrcode_desc {
+			background-color: @brand-info;
+			text-align: center;
+			color: white;
+			margin: 0 100px;
+			padding: 10px 0;
+		}
+
+		.return {
+			margin: 10px 10px 20px 20px;
+			font-family: @font-family-fangtian;
+			font-size: 16px;
+			color: @brand-info;
+			a {
+				text-decoration: none;
+			}
+		}
+		// .confirm {
+		// 	margin: 10px;
+		// 	// div {
+		// 	// 	margin: 0 10px;
+		// 	// }
+		// }
+	}
 }
 
 #userinfo {
