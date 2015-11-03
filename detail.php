@@ -151,6 +151,7 @@
                   <div class="copy_buy_lesson">
                     <h4>报名：</h4>
                     <h5 class="btn btn-warning">购买课程</h5>
+                    <span class="text-info">现价：<span id="discount_price">0</span>元（原价<span id="real_price">500</span>元，中途报名，比例收费）</span>
                   </div>
                 </div> <!-- row -->
               </div>

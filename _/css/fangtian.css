@@ -1199,6 +1199,9 @@ header #dropdown-wx-menu .wx_desc {
   color: #555555;
   border-bottom: 2px solid #555555;
 }
+#detail #btn_join_price {
+  font-size: 18px ;
+}
 #detail .teacher_info {
   margin-bottom: 20px;
 }
