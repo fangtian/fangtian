@@ -929,10 +929,14 @@ header #dropdown-wx-menu .wx_desc {
   font-size: 24px;
 }
 #pay .order_info .order_detail {
-  text-align: right;
+  color: #777777;
+  margin: 10px;
 }
 #pay .order_info .order_detail .order_desc {
   color: #5bc0de;
+}
+#pay .order_notice {
+  margin-left: 35px;
 }
 #pay .choose_method {
   text-align: center;
@@ -940,7 +944,7 @@ header #dropdown-wx-menu .wx_desc {
 }
 #pay .choose_method .icon {
   background-color: white;
-  margin: 10px 50px;
+  margin: 10px 10px;
   -webkit-border-radius: 20px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 20px;
