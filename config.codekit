@@ -176,26 +176,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_\/components\/less\/_fangtian.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/_\/components\/less\/_fangtian.less",
-		"outputAbbreviatedPath": "\/_\/css\/fangtian.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/_\/components\/less\/alerts.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -1690,15 +1670,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_\/css\/fangtian.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/css\/fangtian.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_\/images\/alipay.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1717,6 +1688,28 @@
 		"initialSize": 39691,
 		"inputAbbreviatedPath": "\/_\/images\/alipay_icon.png",
 		"outputAbbreviatedPath": "\/_\/images\/alipay_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/caoyuan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198533,
+		"inputAbbreviatedPath": "\/_\/images\/caoyuan.png",
+		"outputAbbreviatedPath": "\/_\/images\/caoyuan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/chunxue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 185879,
+		"inputAbbreviatedPath": "\/_\/images\/chunxue.png",
+		"outputAbbreviatedPath": "\/_\/images\/chunxue.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1853,6 +1846,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/images\/hongyuan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84332,
+		"inputAbbreviatedPath": "\/_\/images\/hongyuan.png",
+		"outputAbbreviatedPath": "\/_\/images\/hongyuan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/jianwei.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 232172,
+		"inputAbbreviatedPath": "\/_\/images\/jianwei.png",
+		"outputAbbreviatedPath": "\/_\/images\/jianwei.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/kenan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 212716,
+		"inputAbbreviatedPath": "\/_\/images\/kenan.png",
+		"outputAbbreviatedPath": "\/_\/images\/kenan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/images\/level_4.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1915,6 +1941,17 @@
 		"initialSize": 6337,
 		"inputAbbreviatedPath": "\/_\/images\/logo_w_s.png",
 		"outputAbbreviatedPath": "\/_\/images\/logo_w_s.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/maohua.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202952,
+		"inputAbbreviatedPath": "\/_\/images\/maohua.png",
+		"outputAbbreviatedPath": "\/_\/images\/maohua.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2047,6 +2084,17 @@
 		"initialSize": 188468,
 		"inputAbbreviatedPath": "\/_\/images\/xiuli.png",
 		"outputAbbreviatedPath": "\/_\/images\/xiuli.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/images\/yukun.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74980,
+		"inputAbbreviatedPath": "\/_\/images\/yukun.png",
+		"outputAbbreviatedPath": "\/_\/images\/yukun.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2316,15 +2364,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/pay.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/pay.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/player.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2366,15 +2405,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/userinfo.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wxpay.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wxpay.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

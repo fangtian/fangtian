@@ -28,10 +28,11 @@
   	<div class="container">
   		<div class="content">
   			<div class="row">
-  				<div class="order_info">
-  					<div class="col-md-6">
-              <div class="order_detail">
+  				<div class="order_info clearfix">
+            <div class="row">
+              <div class="order_name">
                 <p>学员姓名：陈晓刚</p>
+<<<<<<< HEAD
               </div>
             </div>
             <div class="col-md-6">
@@ -57,7 +58,48 @@
   				</div> <!-- order_info -->
           <div class="col-md-12 order_notice">
             <p><strong>请您及时付款，以便订单快速处理！订单号：1000477733222</strong></p>
+=======
+              </div>
+            </div>
+            <div class="order_detail clearfix">
+              <div class="col-md-6">
+                <p>报名科目 : 数学</p>
+              </div>
+              <div class="col-md-6">
+                <p>报名班型 : 1101测试 基础</p>
+              </div>
+              <div class="col-md-6">
+                <p>任课老师 : 王春雪</p>
+              </div>
+              <div class="col-md-6">
+                <p>上课方式 : 实体面授</p>
+              </div>
+              <div class="col-md-6">
+                <p>上课地点 : 国轩凯旋大厦</p>
+              </div>
+              <div class="col-md-6">
+                <p>开课日期 : 2015-11-01 20:00--22:00</p>
+              </div>
+              <div class="col-md-6">
+                <p>课程频率 : 一天一次</p>
+              </div>
+              <div class="col-md-6">
+                <p>剩余讲数 : 2</p>
+              </div>
+            </div>
+  					
+            <div class="col-md-12">
+              <div class="order_price">
+                  <p><del>课程价格 : 100.00 </del> 应付金额：<span class="sum">66</span>元</p>
+              </div> <!--order_detail-->
+            </div>
+  				</div> <!-- order_info -->
+          <div class="col-md-12">
+            <div class="order_notice">
+              <p><strong>请您及时付款，以便订单快速处理！订单号：1000477733222</strong></p>
+>>>>>>> 5f6809510dcb0e62cc9feb8d614bd2f666b0fd67
             <p>请您在提交订单后24小时内完成支付，否则订单会自动取消。</p>
+            </div> <!-- order_notice -->
           </div>
   			</div> <!-- row -->
   			<div class="row">
