@@ -32,17 +32,30 @@
   					<div class="col-md-6">
               <div class="order_detail">
                 <p>学员姓名：陈晓刚</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="order_detail">
+                <p>任课老师 : 王春雪</p>
+              </div>
+            </div>
+          <div class="col-md-6">
+              <div class="order_detail">
                 <p>上课方式：网上直播</p>
               </div>
-  					</div>
-  					<div class="col-md-6">
+            </div>
+            <div class="col-md-6">
               <div class="order_detail">
-                <p>应付金额：<span class="sum">99.00</span>元</p>
                 <p>您购买的是<span class="order_desc">四升五年级提高班</span>课程</p>
+              </div>
+            </div>
+          <div class="col-md-6">
+              <div class="order_detail">
+                <p><del>课程价格 : 100.00元 </del> 应付金额：<span class="sum">99.00</span>元</p>
               </div>
   					</div>
   				</div> <!-- order_info -->
-          <div class="order_notice">
+          <div class="col-md-12 order_notice">
             <p><strong>请您及时付款，以便订单快速处理！订单号：1000477733222</strong></p>
             <p>请您在提交订单后24小时内完成支付，否则订单会自动取消。</p>
           </div>
