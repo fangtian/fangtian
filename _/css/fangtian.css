@@ -1267,10 +1267,9 @@ header #dropdown-wx-menu .wx_desc {
 }
 #detail .hot {
   background-color: #eeeeee;
-}
-#detail .hot a {
+  cursor: pointer;
+  text-align: center;
   color: #d9534f;
-  text-decoration: none;
 }
 #detail .complet {
   color: #eeeeee;
@@ -1279,10 +1278,8 @@ header #dropdown-wx-menu .wx_desc {
   border: 3px solid #d9534f;
   color: #d9534f;
   background-color: #eeeeee;
-}
-#detail .available a {
-  color: #d9534f;
-  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
 }
 #detail .badge {
   font-size: 20px;

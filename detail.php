@@ -133,9 +133,9 @@
                         </tr>
                         <tr>
                           <th>晚上</th>
-                          <td class="complet">名额已满</td> 
-                          <td class="hot"><a href="">热报中</a></td> 
-                          <td class="available"><a href="">学位：3</a></td> 
+                          <td class="hot">热报中</td> 
+                          <td class="hot">热报中</td> 
+                          <td class="available">学位：3</td> 
                           <td class="complet">名额已满</td> 
                           <td class="complet">名额已满</td> 
                           <td class="complet">名额已满</td> 
