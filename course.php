@@ -28,8 +28,66 @@
     
     <div class="content">
       <section class="col-lg-10 clearfix">
-        <div class="course_list">
+        <div class="query_zone clearfix">
+          <!-- <div class="row">
+            <div class="col-md-2">年级选择</div>
+            <div class="col-md-10">
+              <span class="col-lg-2 col-md-3 col-sm-4 col-xs-6 btn btn-info">合肥二年级</span>
+            </div>
+          </div>
+          <div class="row">
+            <label class="col-lg-2 col-md-2 col-sm-4">授课方式</label>
+            <div class="col-lg-10 col-md-10 col-sm-8">
+              <span class="col-lg-2 col-md-3 col-sm-4 col-xs-6 btn btn-info">网络直播</span>
+              <span class="col-lg-2 col-md-3 col-sm-4 col-xs-6 btn btn-default">面授</span>
+            </div>
+          </div>
+          <div class="row">
+            <label class="col-lg-2 col-md-3 col-sm-4">学科</label>
+            <div class="col-lg-10 col-md-9 col-sm-8">
+              <span class="col-lg-2 col-md-3 col-sm-4 col-xs-6 btn btn-info">数学</span>
+              <span class="col-lg-2 col-md-3 col-sm-4 col-xs-6 btn btn-default">语文</span>
+            </div>
+          </div> -->
+          <div class="key clearfix">
+            <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#location" class="btn btn-info" id="key-location">所在地</span><button id = "location-close" type="button" class="close hidden" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+            <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#level" class="btn btn-block btn-info">年级</span></div>
+            <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#method" class="btn btn-block btn-info">授课方式</span></div>
+            <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#subject" class="btn btn-block btn-info">科目</span></div>
 
+          </div>
+          
+          <div class="collapse clearfix" id="location">
+            <div class="location well clearfix">
+              <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">合肥</span></div>
+              <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">长沙</span></div>
+              <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">深圳</span></div>
+              <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">其他城市</span></div>
+            </div>
+          </div>
+          <div class="collapse clearfix" id="level">
+            <div class="location well clearfix">
+              <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">五年级</span></div>
+              <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">六年级</span></div>
+              <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">初一</span></div>
+              <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">初二</span></div>
+              <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">初三</span></div>
+            </div>
+          </div>
+          <div class="collapse clearfix" id="method">
+            <div class="location well clearfix">
+              <div class="col-xs-6"><span class="btn-block btn btn-default">面授</span></div>
+              <div class="col-xs-6"><span class="btn-block btn btn-default">网络直播</span></div>
+            </div>
+          </div>
+          <div class="collapse clearfix" id="subject">
+            <div class="location well clearfix">
+              <div class="col-xs-6"><span class="btn-block btn btn-default">数学</span></div>
+              <div class="col-xs-6"><span class="btn-block btn btn-default">物理</span></div>
+            </div>
+          </div>
+        </div> <!-- query_zone -->
+        <div class="course_list">
           <div class="classitem">
             <div class="row">
               <div class="col-md-2">
@@ -69,7 +127,7 @@
                 <button class="btn btn-info" type="button">
                   我要试听
                 </button>
-                <button class="btn btn-info" type="button">
+                <button class="btn btn-danger" type="button">
                   马上报名
                 </button>
               </div>
@@ -169,6 +227,31 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="_/js/bootstrap.js"></script>
   <script src="_/js/fangtian.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function(){
+      $('#location').on('click', 'span', function(e){
+        $('#location-close').removeClass('hidden');
+        $('#key-location').text(this.innerText);
+        $('#location').collapse('hide');
+         
+      });
+      $('#level').on('click', 'span', function(){
+         $('#level').collapse('hide');
+      });
+      $('#method').on('click', 'span', function(){
+         $('#method').collapse('hide');
+      });
+      $('#subject').on('click', 'span', function(){
+         $('#subject').collapse('hide');
+      });
+      $('#location-close').click(function(){
+        // $('#location-close').remove('button');
+        $('#location-close').addClass('hidden');
+        $('#key-location').text('所在地');
+      });
+
+    });
+  </script>
 
   </body>
 </html>

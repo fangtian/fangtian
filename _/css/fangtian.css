@@ -823,6 +823,22 @@ header #dropdown-wx-menu .wx_desc {
     margin-top: 50px;
   }
 }
+#course .query_zone {
+  margin-top: 20px;
+}
+#course .query_zone label {
+  text-align: left;
+}
+#course .query_zone .well {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#course .query_zone .btn-info {
+  width: 90%;
+}
+#course .query_zone .btn {
+  margin-bottom: 10px;
+}
 #course .course_list {
   background-color: #eeeeee;
   margin: 10px 0px;
