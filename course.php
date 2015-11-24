@@ -51,9 +51,9 @@
           </div> -->
           <div class="key clearfix">
             <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#location" class="btn btn-info" id="key-location">所在地</span><button id = "location-close" type="button" class="close hidden" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-            <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#level" class="btn btn-block btn-info">年级</span></div>
-            <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#method" class="btn btn-block btn-info">授课方式</span></div>
-            <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#subject" class="btn btn-block btn-info">科目</span></div>
+            <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#level" class="btn btn-info">年级</span></div>
+            <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#method" class="btn btn-info">授课方式</span></div>
+            <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#subject" class="btn btn-info">科目</span></div>
 
           </div>
           
