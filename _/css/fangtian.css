@@ -1129,6 +1129,9 @@ header #dropdown-wx-menu .wx_desc {
 #exam .bookmark a {
   color: #5bc0de;
 }
+#exam button {
+  outline: none;
+}
 #exam .marked {
   font-size: 30px;
   margin-left: 6px;
@@ -1288,7 +1291,8 @@ header #dropdown-wx-menu .wx_desc {
   color: #d9534f;
 }
 #detail .complet {
-  color: #eeeeee;
+  color: #f0ad4e;
+  text-align: center;
 }
 #detail .available {
   border: 3px solid #d9534f;

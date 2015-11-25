@@ -1129,6 +1129,10 @@ header {
 			color: @brand-info;
 		}
 	}
+
+	button {
+		outline: none;
+	}
 	.marked {
 		font-size: 30px;
 		margin-left: 6px;
@@ -1310,7 +1314,9 @@ header {
 		color: @brand-danger;
 	}
 	.complet {
-		color: @gray-lighter;
+		// color: @gray-lighter;
+		color: @brand-warning;
+		text-align: center;
 	}
 	.available{
 		border: 3px solid @brand-danger;
