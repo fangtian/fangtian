@@ -829,6 +829,16 @@ header #dropdown-wx-menu .wx_desc {
 #course .query_zone label {
   text-align: left;
 }
+#course .query_zone .result-indicator {
+  color: #777777;
+  text-align: right;
+}
+#course .query_zone .result-indicator .result-sum {
+  color: #5bc0de;
+}
+#course .query_zone .result-indicator .current-page {
+  color: #d9534f;
+}
 #course .query_zone .well {
   margin-top: 10px;
   margin-bottom: 0;

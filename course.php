@@ -29,32 +29,31 @@
     <div class="content">
       <section class="col-lg-10 clearfix">
         <div class="query_zone clearfix">
-          <!-- <div class="row">
-            <div class="col-md-2">年级选择</div>
-            <div class="col-md-10">
-              <span class="col-lg-2 col-md-3 col-sm-4 col-xs-6 btn btn-info">合肥二年级</span>
-            </div>
-          </div>
-          <div class="row">
-            <label class="col-lg-2 col-md-2 col-sm-4">授课方式</label>
-            <div class="col-lg-10 col-md-10 col-sm-8">
-              <span class="col-lg-2 col-md-3 col-sm-4 col-xs-6 btn btn-info">网络直播</span>
-              <span class="col-lg-2 col-md-3 col-sm-4 col-xs-6 btn btn-default">面授</span>
-            </div>
-          </div>
-          <div class="row">
-            <label class="col-lg-2 col-md-3 col-sm-4">学科</label>
-            <div class="col-lg-10 col-md-9 col-sm-8">
-              <span class="col-lg-2 col-md-3 col-sm-4 col-xs-6 btn btn-info">数学</span>
-              <span class="col-lg-2 col-md-3 col-sm-4 col-xs-6 btn btn-default">语文</span>
-            </div>
-          </div> -->
           <div class="key clearfix">
             <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#location" class="btn btn-info" id="key-location">所在地</span><button id = "location-close" type="button" class="close hidden" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
             <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#level" class="btn btn-info">年级</span></div>
             <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#method" class="btn btn-info">授课方式</span></div>
             <div class="col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#subject" class="btn btn-info">科目</span></div>
 
+          </div>
+
+          <div class="result-indicator">
+            <span>共有</span>
+            <span class="result-sum">
+              <strong>
+                32
+              </strong>
+            </span>
+            <span>条记录</span>
+            <span>&nbsp</span>
+            <span class="current-page"><strong>1</strong></span>
+            <span>/</span>
+            <span class="total-pages">2</span>
+            <span>&nbsp</span>
+            <span class="btn-group" role="group">
+              <button class="btn btn-default btn-sm" disabled="true"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></button>
+              <button class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+            </span>
           </div>
           
           <div class="collapse clearfix" id="location">
