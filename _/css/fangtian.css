@@ -1390,6 +1390,37 @@ header #dropdown-wx-menu .wx_desc {
 #detail .student_commends h6 {
   color: #5bc0de;
 }
+#replayadmin {
+  color: #555555;
+  background-color: #eeeeee;
+  margin-top: 90px;
+}
+@media (max-width: 767px) {
+  #replayadmin {
+    margin-top: 50px;
+    padding: 20px 0px;
+  }
+}
+#replayadmin .query-date {
+  margin: 20px 30px;
+}
+#replayadmin #progress {
+  padding-left: 0;
+  padding-right: 0;
+}
+#replayadmin #browserPlayer,
+#replayadmin #montageMsgZone {
+  margin-left: 15px;
+}
+#replayadmin #browserForm div {
+  margin-bottom: 20px;
+}
+#replayadmin #player {
+  margin: 20px;
+}
+#replayadmin #mongtageForm {
+  margin-bottom: 20px;
+}
 footer {
   background-color: #27272b;
   color: white;
