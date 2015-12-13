@@ -224,15 +224,11 @@
                 </div> <!-- desc -->
               </a> <!-- item_link -->
             </div> <!-- livecourse_item -->
-
-
-
           </div> <!-- owl-fangtian -->
-
-          
-        
-          
         </div> <!-- row -->
+        <div class="more">
+          <a href="course.php" class="more-lessons" title="更多课程" target="_self">更多课程</a>
+        </div>
       </div> <!-- container -->
     </section> <!-- livecourse -->
 

@@ -40,7 +40,8 @@ jQuery(document).ready(function(){
 	// menu highlight
 	// ---------------------------------------------------------
 	$("#mycourse a:contains('我的主页')").addClass('selected');
-	$("#userinfo a:contains('修改资料')").addClass('selected');
+	$("#userinfo a:contains('基础资料')").addClass('selected');
+	$("#complement a:contains('完善资料')").addClass('selected');
 	$("#portrait a:contains('上传头像')").addClass('selected');
 
 	// ---------------------------------------------------------

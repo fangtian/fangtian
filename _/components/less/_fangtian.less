@@ -311,6 +311,28 @@ header {
 		}
 
 	}
+	
+	.more {
+		text-align: right;
+		.more-lessons{
+			color: @gray-lighter;
+			letter-spacing: 2px;
+			text-decoration: none;
+			outline: none;
+			&:hover {
+				color: @brand-warning;
+			}
+		}
+	}
+
+	.forget-password {
+		float: left;
+		margin-top: 12px;
+		a {
+			text-decoration: none;
+		}
+
+	}
 }
 #owl-fangtian {
 	.livecourse_item {
@@ -767,6 +789,8 @@ header {
 			text-align: left;
 		}
 
+
+
 		.result-indicator {
 			color: @gray-light;
 			text-align: right;
@@ -784,7 +808,7 @@ header {
 		}
 
 		.btn-info {
-			width: 90%;
+			width: 85%;
 		}
 
 		.btn {
@@ -897,7 +921,6 @@ header {
 			color: @gray;
 		}
 	}
-	
 }
 
 #pay {
@@ -1086,34 +1109,128 @@ header {
 	.divider {
 		border-bottom: 2px solid @gray;
 	}
-	// .menu {
-		
-	// 	margin: 20px 10px;
-	// 	font-size: 16px;
-	// 	font-family: @font-family-fangtian;
-
-	// 	a {
-	// 		text-decoration: none;
-	// 		color: @gray;
-	// 	}
-
-	// 	a.selected {
-	// 		color: #de4f4f;
-	// 		border-bottom: 2px solid #de4f4f;
-	// 	}
-
-	// 	ul {
-	// 		list-style: none;
-	// 		padding: 0px 10px;
-	// 		li {
-	// 			padding: 10px 5px;
-	// 		}
-	// 	}
-
-
-	// }
 
 	.userinfo {
+		background-color: white;
+		margin: 20px;
+		padding: 20px;
+		// width: 100%;
+
+		form {
+			margin-top: 20px;
+		}
+	}
+}
+
+#login {
+	background-color: @gray-lighter;
+	margin-top: 90px;
+	@media (max-width: @screen-xs-max) {
+		margin-top: 50px;
+	}
+
+	.login-area	{
+		margin: 30px;
+		@media (max-width: @screen-xs-max) {
+			margin: 30px 0;
+		}
+		color: @gray-light;
+		.title {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.imin {
+		float: right;
+		margin-top: 5px;
+		a {
+			text-decoration: none;
+			color: @brand-info;
+		}
+	}
+
+	.forget-password {
+		float: right;
+		font-size: 13px;
+		
+		a {
+			text-decoration: none;
+			color: @brand-info;
+		}
+	}
+
+	.cover {
+		margin-top: 10px;
+	}
+}
+
+#forget-password {
+	background-color: @gray-lighter;
+	margin-top: 90px;
+	@media (max-width: @screen-xs-max) {
+		margin-top: 50px;
+	}
+
+	.login-area	{
+		margin: 30px;
+		@media (max-width: @screen-xs-max) {
+			margin: 30px 0;
+		}
+		color: @gray-light;
+		.title {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.cover {
+		margin-top: 100px;
+	}
+}
+#register {
+	background-color: @gray-lighter;
+	margin-top: 90px;
+	@media (max-width: @screen-xs-max) {
+		margin-top: 50px;
+	}
+
+	.login-area	{
+		margin: 30px;
+		@media (max-width: @screen-xs-max) {
+			margin: 30px 0;
+		}
+		color: @gray-light;
+		.title {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+	}
+	.imin {
+		float: right;
+		margin-top: 5px;
+		a {
+			text-decoration: none;
+			color: @brand-info;
+		}
+	}
+
+	.cover {
+		margin-top: 100px;
+	}
+}
+
+#complement {
+	background-color: @gray-lighter;
+	margin-top: 100px;
+	@media (max-width: @screen-xs-max) {
+		margin-top: 50px;
+	}
+	.divider {
+		border-bottom: 2px solid @gray;
+	}
+
+	.complement {
 		background-color: white;
 		margin: 20px;
 		padding: 20px;

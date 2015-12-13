@@ -317,6 +317,25 @@ header #dropdown-wx-menu .wx_desc {
   -o-transition: 0.8s;
   transition: 0.8s;
 }
+#home .more {
+  text-align: right;
+}
+#home .more .more-lessons {
+  color: #eeeeee;
+  letter-spacing: 2px;
+  text-decoration: none;
+  outline: none;
+}
+#home .more .more-lessons:hover {
+  color: #f0ad4e;
+}
+#home .forget-password {
+  float: left;
+  margin-top: 12px;
+}
+#home .forget-password a {
+  text-decoration: none;
+}
 #owl-fangtian .livecourse_item a {
   text-decoration: none;
   text-align: center;
@@ -844,7 +863,7 @@ header #dropdown-wx-menu .wx_desc {
   margin-bottom: 0;
 }
 #course .query_zone .btn-info {
-  width: 90%;
+  width: 85%;
 }
 #course .query_zone .btn {
   margin-bottom: 10px;
@@ -1127,6 +1146,125 @@ header #dropdown-wx-menu .wx_desc {
   padding: 20px;
 }
 #userinfo .userinfo form {
+  margin-top: 20px;
+}
+#login {
+  background-color: #eeeeee;
+  margin-top: 90px;
+}
+@media (max-width: 767px) {
+  #login {
+    margin-top: 50px;
+  }
+}
+#login .login-area {
+  margin: 30px;
+  color: #777777;
+}
+@media (max-width: 767px) {
+  #login .login-area {
+    margin: 30px 0;
+  }
+}
+#login .login-area .title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#login .imin {
+  float: right;
+  margin-top: 5px;
+}
+#login .imin a {
+  text-decoration: none;
+  color: #5bc0de;
+}
+#login .forget-password {
+  float: right;
+  font-size: 13px;
+}
+#login .forget-password a {
+  text-decoration: none;
+  color: #5bc0de;
+}
+#login .cover {
+  margin-top: 10px;
+}
+#forget-password {
+  background-color: #eeeeee;
+  margin-top: 90px;
+}
+@media (max-width: 767px) {
+  #forget-password {
+    margin-top: 50px;
+  }
+}
+#forget-password .login-area {
+  margin: 30px;
+  color: #777777;
+}
+@media (max-width: 767px) {
+  #forget-password .login-area {
+    margin: 30px 0;
+  }
+}
+#forget-password .login-area .title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#forget-password .cover {
+  margin-top: 100px;
+}
+#register {
+  background-color: #eeeeee;
+  margin-top: 90px;
+}
+@media (max-width: 767px) {
+  #register {
+    margin-top: 50px;
+  }
+}
+#register .login-area {
+  margin: 30px;
+  color: #777777;
+}
+@media (max-width: 767px) {
+  #register .login-area {
+    margin: 30px 0;
+  }
+}
+#register .login-area .title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#register .imin {
+  float: right;
+  margin-top: 5px;
+}
+#register .imin a {
+  text-decoration: none;
+  color: #5bc0de;
+}
+#register .cover {
+  margin-top: 100px;
+}
+#complement {
+  background-color: #eeeeee;
+  margin-top: 100px;
+}
+@media (max-width: 767px) {
+  #complement {
+    margin-top: 50px;
+  }
+}
+#complement .divider {
+  border-bottom: 2px solid #555555;
+}
+#complement .complement {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+#complement .complement form {
   margin-top: 20px;
 }
 #exam {

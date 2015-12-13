@@ -21,8 +21,8 @@
     <div class="divider"></div>
   </div>
     <h5><a href="mycourse.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> 我的主页</a></h5>
-    <h5><a href="userinfo.php"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 修改资料 <span class="badge">需要更新</span></a></h5>
-    <h5><a href="userinfo.php"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> 修改密码</a></h5>
+    <h5><a href="userinfo.php"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 基础资料 </a></h5>
+    <h5><a href="complement.php"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> 完善资料 <span class="badge">需要更新</span></a></h5>
     <h5><a href="portrait.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> 上传头像</a></h5>
   <div class="row">
     <div class="divider"></div>
