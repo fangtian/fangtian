@@ -26,15 +26,12 @@
   <div class="container">
     <div class="content">
       <div class="login-area clearfix">
-        <div class="col-md-5 col-md-offset-3 hidden-sm hidden-xs">
-          <div class="cover">
-            <img src="_/images/fangtian_whatwedo.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-md-offset-4">
           <div class="login_form">
             <form action="">
-              <label class="title" for="">重置密码</label>
+              <div class="subject">
+                <label class="title" for="">重置密码</label>
+              </div>
               <fieldset>
                 <div class="form-group">
                   <label for="exampleInputEmail1">您的手机号码</label>

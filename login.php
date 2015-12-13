@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <title>方田教育</title>
 
     <!-- Bootstrap -->
@@ -26,15 +26,12 @@
   <div class="container">
     <div class="content">
       <div class="login-area clearfix">
-        <div class="col-md-5 col-md-offset-3 hidden-sm hidden-xs">
-          <div class="cover">
-            <img src="_/images/fangtian_whatwedo.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-md-offset-4">
           <div class="login_form">
             <form action="">
-              <label class="title" for="">账号登录</label>
+              <div class="subject">
+                <label class="title" for="">账号登录</label>
+              </div>
               <fieldset>
                 <div class="form-group">
                   <label for="exampleInputEmail1">您的手机号码</label>
@@ -44,7 +41,7 @@
                   <label for="password">您的密码</label><span class="forget-password "><a href="forget-password.php">忘记登录密码？</a></span>
                   <input type="password" class="form-control" id="password" placeholder="密码">
                 </div>
-                <button type="submit" class="btn btn-primary">登录</button>
+                <button type="submit" class="btn btn-info">登录</button>
                 <span class="imin"><a href="register.php">没有账号，点这里注册</a></span>
               </fieldset>
             </form>

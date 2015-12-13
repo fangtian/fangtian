@@ -26,15 +26,12 @@
   <div class="container">
     <div class="content">
       <div class="login-area clearfix">
-        <div class="col-md-5 col-md-offset-3 hidden-sm hidden-xs">
-          <div class="cover">
-            <img src="_/images/fangtian_whatwedo.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-md-offset-4">
           <div class="login_form">
             <form action="">
-              <label class="title" for="">用户注册</label>
+              <div class="subject">
+                <label class="title" for="">用户注册</label>
+              </div>
               <fieldset>
                 <div class="form-group">
                   <label for="exampleInputEmail1">您的手机号码</label>
@@ -54,7 +51,7 @@
                 <div class="form-group">
                   <div class="alert alert-success" role="alert">密码重置成功，3秒后跳入选课页面</div>
                 </div>
-                <button type="submit" class="btn btn-primary">账户登录</button>
+                <button type="submit" class="btn btn-info">账户登录</button>
                 <span class="imin"><a href="login.php">已有账号，点这里直接登录</a></span>
               </fieldset>
             </form>

@@ -1149,7 +1149,7 @@ header #dropdown-wx-menu .wx_desc {
   margin-top: 20px;
 }
 #login {
-  background-color: #eeeeee;
+  background-color: white;
   margin-top: 90px;
 }
 @media (max-width: 767px) {
@@ -1169,6 +1169,35 @@ header #dropdown-wx-menu .wx_desc {
 #login .login-area .title {
   font-size: 18px;
   margin-bottom: 20px;
+}
+#login .login-area .login_form {
+  -webkit-border-radius: 20px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px;
+  -moz-background-clip: padding;
+  border-radius: 20px;
+  background-clip: padding-box;
+  border: 2px solid #eeeeee;
+  padding: 0;
+}
+#login .login-area .login_form .subject {
+  background-color: #fff4c0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px 20px 0 0;
+  -moz-background-clip: padding;
+  border-radius: 20px 20px 0 0;
+  background-clip: padding-box;
+  border-bottom: 2px solid #eeeeee;
+  text-align: center;
+}
+#login .login-area .login_form .subject label {
+  padding: 15px 0 0 0;
+  letter-spacing: 5px;
+  font-style: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
+}
+#login .login-area .login_form fieldset {
+  padding: 20px;
 }
 #login .imin {
   float: right;
@@ -1190,7 +1219,7 @@ header #dropdown-wx-menu .wx_desc {
   margin-top: 10px;
 }
 #forget-password {
-  background-color: #eeeeee;
+  background-color: white;
   margin-top: 90px;
 }
 @media (max-width: 767px) {
@@ -1211,11 +1240,40 @@ header #dropdown-wx-menu .wx_desc {
   font-size: 18px;
   margin-bottom: 20px;
 }
+#forget-password .login-area .login_form {
+  -webkit-border-radius: 20px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px;
+  -moz-background-clip: padding;
+  border-radius: 20px;
+  background-clip: padding-box;
+  border: 2px solid #eeeeee;
+  padding: 0;
+}
+#forget-password .login-area .login_form .subject {
+  background-color: #fff4c0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px 20px 0 0;
+  -moz-background-clip: padding;
+  border-radius: 20px 20px 0 0;
+  background-clip: padding-box;
+  border-bottom: 2px solid #eeeeee;
+  text-align: center;
+}
+#forget-password .login-area .login_form .subject label {
+  padding: 15px 0 0 0;
+  letter-spacing: 5px;
+  font-style: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
+}
+#forget-password .login-area .login_form fieldset {
+  padding: 20px;
+}
 #forget-password .cover {
   margin-top: 100px;
 }
 #register {
-  background-color: #eeeeee;
+  background-color: white;
   margin-top: 90px;
 }
 @media (max-width: 767px) {
@@ -1235,6 +1293,35 @@ header #dropdown-wx-menu .wx_desc {
 #register .login-area .title {
   font-size: 18px;
   margin-bottom: 20px;
+}
+#register .login-area .login_form {
+  -webkit-border-radius: 20px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px;
+  -moz-background-clip: padding;
+  border-radius: 20px;
+  background-clip: padding-box;
+  border: 2px solid #eeeeee;
+  padding: 0;
+}
+#register .login-area .login_form .subject {
+  background-color: #fff4c0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px 20px 0 0;
+  -moz-background-clip: padding;
+  border-radius: 20px 20px 0 0;
+  background-clip: padding-box;
+  border-bottom: 2px solid #eeeeee;
+  text-align: center;
+}
+#register .login-area .login_form .subject label {
+  padding: 15px 0 0 0;
+  letter-spacing: 5px;
+  font-style: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
+}
+#register .login-area .login_form fieldset {
+  padding: 20px;
 }
 #register .imin {
   float: right;
