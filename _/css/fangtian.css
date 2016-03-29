@@ -1393,6 +1393,12 @@ header #dropdown-wx-menu .wx_desc {
 #exam_content .exam_object .exam_option {
   margin-bottom: 5px;
 }
+#exam_content .done_logo {
+  float: right;
+  position: relative;
+  top: -200px;
+  right: 100px;
+}
 @media (max-width: 991px) {
   #exam_content .exam_area .affix {
     position: static;
@@ -1475,6 +1481,39 @@ header #dropdown-wx-menu .wx_desc {
   min-height: 40px;
   min-width: 60px;
   height: 68px;
+  background-color: #f0ad4e;
+}
+#mycourse .mycourse a {
+  color: #555555;
+  text-decoration: none;
+}
+#mycourse .mycourse .exam_object {
+  background-color: white;
+  margin: 10px;
+  padding: 10px 0;
+}
+#mycourse .mycourse .exam_object .exam_option {
+  margin-bottom: 5px;
+}
+#mycourse .mycourse .done_logo {
+  float: right;
+  position: relative;
+  top: -200px;
+  right: 100px;
+}
+@media (max-width: 991px) {
+  #mycourse .mycourse .exam_area .affix {
+    position: static;
+    width: auto;
+    top: 0;
+  }
+}
+#mycourse .mycourse .badge {
+  font-size: 20px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  min-height: 20px;
+  min-width: 20px;
   background-color: #f0ad4e;
 }
 #detail {
