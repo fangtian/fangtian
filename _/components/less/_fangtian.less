@@ -1353,6 +1353,13 @@ header {
 		}
 	}
 
+	.done_logo {
+		float: right;
+		position: relative;
+		top: -200px;
+		right: 100px;
+	}
+
 	.exam_area {
 		.affix {
 			@media (max-width: @screen-sm-max) {
@@ -1447,6 +1454,47 @@ header {
 				height: 68px;
 				background-color: @brand-warning;
 			}
+		}
+		//debug a 2016-02-24
+		a {
+			color: @gray;
+			text-decoration: none;
+		}
+		.exam_object {
+			background-color: white;
+			// min-height: 230px;
+			margin: 10px;
+			padding: 10px 0;
+			.exam_option {
+				margin-bottom: 5px;
+			}
+		}
+
+		.done_logo {
+			float: right;
+			position: relative;
+			top: -200px;
+			right: 100px;
+		}
+
+		.exam_area {
+			.affix {
+				@media (max-width: @screen-sm-max) {
+					position: static;
+					width: auto;
+					top: 0;
+				}
+			}
+		}
+
+		.badge {
+			font-size: 20px;
+			margin: 5px 10px;
+			border-radius: 5px;
+			min-height: 20px;
+			min-width: 20px;
+			background-color: @brand-warning;
+
 		}
 	}
 }

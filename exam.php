@@ -71,6 +71,9 @@
                 
                 
               </div>
+              <div class="done_logo">
+                <img src="_/images/done.gif">
+              </div>
 
               <div class="exam_object clearfix">
                 <div class="col-md-1">
