@@ -1148,6 +1148,108 @@ header #dropdown-wx-menu .wx_desc {
 #userinfo .userinfo form {
   margin-top: 20px;
 }
+#exam-result {
+  background-color: white;
+  margin-top: 90px;
+}
+@media (max-width: 767px) {
+  #exam-result {
+    margin-top: 50px;
+  }
+}
+#exam-result .result-area {
+  margin: 30px;
+  color: #777777;
+}
+@media (max-width: 767px) {
+  #exam-result .result-area {
+    margin: 30px 0;
+  }
+}
+#exam-result .result-area .title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#exam-result .result-area .result-display {
+  -webkit-border-radius: 20px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px;
+  -moz-background-clip: padding;
+  border-radius: 20px;
+  background-clip: padding-box;
+  border: 2px solid #eeeeee;
+  padding: 0;
+}
+#exam-result .result-area .result-display .subject {
+  background-color: #fff4c0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px 20px 0 0;
+  -moz-background-clip: padding;
+  border-radius: 20px 20px 0 0;
+  background-clip: padding-box;
+  border-bottom: 2px solid #eeeeee;
+  text-align: center;
+}
+#exam-result .result-area .result-display .subject label {
+  padding: 15px 0 0 0;
+  letter-spacing: 5px;
+  font-style: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
+}
+#exam-result .result-area .result-display fieldset {
+  padding: 20px;
+}
+#exam-search {
+  background-color: white;
+  margin-top: 90px;
+}
+@media (max-width: 767px) {
+  #exam-search {
+    margin-top: 50px;
+  }
+}
+#exam-search .search-area {
+  margin: 30px;
+  color: #777777;
+}
+@media (max-width: 767px) {
+  #exam-search .search-area {
+    margin: 30px 0;
+  }
+}
+#exam-search .search-area .title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#exam-search .search-area .search_form {
+  -webkit-border-radius: 20px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px;
+  -moz-background-clip: padding;
+  border-radius: 20px;
+  background-clip: padding-box;
+  border: 2px solid #eeeeee;
+  padding: 0;
+}
+#exam-search .search-area .search_form .subject {
+  background-color: #fff4c0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px 20px 0 0;
+  -moz-background-clip: padding;
+  border-radius: 20px 20px 0 0;
+  background-clip: padding-box;
+  border-bottom: 2px solid #eeeeee;
+  text-align: center;
+}
+#exam-search .search-area .search_form .subject label {
+  padding: 15px 0 0 0;
+  letter-spacing: 5px;
+  font-style: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
+}
+#exam-search .search-area .search_form fieldset {
+  padding: 20px;
+}
 #login {
   background-color: white;
   margin-top: 90px;
