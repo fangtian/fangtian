@@ -1477,6 +1477,10 @@ header {
 	margin-top: 100px;
 	@media (max-width: @screen-xs-max) {
 		margin-top: 50px;
+		.row {
+			margin-left: -40px;
+			margin-right: -40px;
+		}
 		.course_img {
 			img {
 				width: 100%;
@@ -1496,6 +1500,15 @@ header {
 			color: @brand-info;
 		}
 		.badge {
+			margin-top: 40px;
+			@media (max-width: @screen-sm-max) {
+				margin-top: 0;
+				margin-bottom: 20px;
+				padding-top: 10px;
+				border-radius: 40px;
+				min-height: 80px;
+				min-width: 80px;
+			}
 			font-size: 16px;
 			// margin: 5px 10px;
 			border-radius: 30px;
@@ -1526,7 +1539,9 @@ header {
 		.course_title {
 			padding: 5px 5px 0;
 			text-align: center;
-
+			@media (max-width: @screen-xs-max) {
+				margin-bottom: 20px;
+			}
 		}
 		.button_list {
 			padding-top: 10px;
@@ -1585,6 +1600,15 @@ header {
 			min-width: 20px;
 			background-color: @brand-warning;
 
+		}
+		.chapter {
+			.show_chapter {
+				text-align: right;
+				margin: 20px 20px 0 0;
+				color: @brand-warning;
+				cursor: pointer;
+				letter-spacing: 2px;
+			}
 		}
 	}
 }

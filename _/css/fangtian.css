@@ -1523,6 +1523,10 @@ header #dropdown-wx-menu .wx_desc {
   #mycourse {
     margin-top: 50px;
   }
+  #mycourse .row {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
   #mycourse .course_img img {
     width: 100%;
   }
@@ -1541,11 +1545,22 @@ header #dropdown-wx-menu .wx_desc {
   color: #5bc0de;
 }
 #mycourse .myscore .badge {
+  margin-top: 40px;
   font-size: 16px;
   border-radius: 30px;
   min-height: 60px;
   min-width: 30px;
   background-color: #f0ad4e;
+}
+@media (max-width: 991px) {
+  #mycourse .myscore .badge {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 40px;
+    min-height: 80px;
+    min-width: 80px;
+  }
 }
 #mycourse .myscore .score_style {
   color: #f0ad4e;
@@ -1569,6 +1584,11 @@ header #dropdown-wx-menu .wx_desc {
 #mycourse .mycourse .course_title {
   padding: 5px 5px 0;
   text-align: center;
+}
+@media (max-width: 767px) {
+  #mycourse .mycourse .course_title {
+    margin-bottom: 20px;
+  }
 }
 #mycourse .mycourse .button_list {
   padding-top: 10px;
@@ -1617,6 +1637,13 @@ header #dropdown-wx-menu .wx_desc {
   min-height: 20px;
   min-width: 20px;
   background-color: #f0ad4e;
+}
+#mycourse .mycourse .chapter .show_chapter {
+  text-align: right;
+  margin: 20px 20px 0 0;
+  color: #f0ad4e;
+  cursor: pointer;
+  letter-spacing: 2px;
 }
 #detail {
   color: #555555;
