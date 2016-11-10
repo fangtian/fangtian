@@ -31,6 +31,21 @@
           <div class="exam_area">
             <div class="col-md-8 col-md-offset-2">
 
+              <div class="key clearfix">
+                <div class="key-subject col-sm-3 col-xs-6"><span data-toggle="collapse" data-target="#subject" class="btn btn-info" id="key-subject">全科</span><button id = "subject-close" type="button" class="close hidden" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+              </div>
+
+              <div class="collapse clearfix" id="subject">
+                <div class="subject well clearfix">
+                  <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">数学</span></div>
+                  <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">物理</span></div>
+                  <div class="col-sm-3 col-xs-6"><span class="btn-block btn btn-default">化学</span></div>
+                </div>
+              </div>
+              <div class="marker">
+                <p><span class="glyphicon glyphicon-info-sign"></span> <span class="text-danger">红色</span>表示答案错误, <span class="text-success">绿色</span>表示答案正确</p>
+              </div>
+
               <div class="exam_object clearfix">
                 <div class="col-md-1">
                   <div class="exam_number">
@@ -149,6 +164,22 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="_/js/bootstrap.js"></script>
   <script src="_/js/fangtian.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function(){
+
+      $('#subject').on('click', 'span', function(e){
+        $('#subject-close').removeClass('hidden');
+        $('#key-subject').text(this.innerText);
+        $('#subject').collapse('hide');
+         
+      });
+      $('#subject-close').click(function(){
+        $('#subject-close').addClass('hidden');
+        $('#key-subject').text('全科');
+      });
+
+    });
+  </script>
 
   </body>
 </html>

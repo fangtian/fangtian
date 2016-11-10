@@ -45,7 +45,7 @@
             <div class="col-md-2 col-md-push-6 col-xs-4">
               <a href=""><span class="badge badge-score"></br>错题本<br>111</span></a>
             </div>
-            <h4 class="col-md-6 col-md-pull-6">我的收获</h4>
+            <h4 class="col-md-6 col-md-pull-6 clearfix">我的收获</h4>
             <div class="col-md-3 col-md-pull-6 col-sm-6 col-xs-6">
               <h5>收获米粒：<span class="score_style">31</span></h5>
               <h5>已学课程：<span class="score_style">3</span></h5>
@@ -86,8 +86,8 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-12">
                   <div class="button_list">     
-                    <a class="btn btn-success btn-block" href="http://localhost/haibian/course/course.html">去上课</a>
-                    <a class="btn btn-info btn-block">做作业</a>
+                    <!-- <a class="btn btn-success btn-block" href="http://localhost/haibian/course/course.html">去上课</a>
+                    <a class="btn btn-info btn-block">做作业</a> -->
                   </div>
                 </div>
 

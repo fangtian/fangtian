@@ -1487,6 +1487,19 @@ header #dropdown-wx-menu .wx_desc {
     padding: 20px 0px;
   }
 }
+#exam_content .key-subject {
+  padding-left: 10px;
+}
+#exam_content .marker p {
+  margin: 10px;
+  letter-spacing: 1px;
+}
+#exam_content .well {
+  margin: 10px;
+}
+#exam_content .well span {
+  margin-bottom: 10px;
+}
 #exam_content .exam_object {
   background-color: white;
   margin: 10px;
@@ -1540,6 +1553,8 @@ header #dropdown-wx-menu .wx_desc {
 }
 #mycourse .myscore h4 {
   color: #777777;
+  z-index: -1;
+  padding-left: 0;
 }
 #mycourse .myscore h5 {
   color: #5bc0de;
@@ -1557,7 +1572,7 @@ header #dropdown-wx-menu .wx_desc {
     margin-top: 0;
     margin-bottom: 20px;
     padding-top: 10px;
-    border-radius: 40px;
+    border-radius: 80px;
     min-height: 80px;
     min-width: 80px;
   }
