@@ -1148,6 +1148,108 @@ header #dropdown-wx-menu .wx_desc {
 #userinfo .userinfo form {
   margin-top: 20px;
 }
+#exam-result {
+  background-color: white;
+  margin-top: 90px;
+}
+@media (max-width: 767px) {
+  #exam-result {
+    margin-top: 50px;
+  }
+}
+#exam-result .result-area {
+  margin: 30px;
+  color: #777777;
+}
+@media (max-width: 767px) {
+  #exam-result .result-area {
+    margin: 30px 0;
+  }
+}
+#exam-result .result-area .title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#exam-result .result-area .result-display {
+  -webkit-border-radius: 20px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px;
+  -moz-background-clip: padding;
+  border-radius: 20px;
+  background-clip: padding-box;
+  border: 2px solid #eeeeee;
+  padding: 0;
+}
+#exam-result .result-area .result-display .subject {
+  background-color: #fff4c0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px 20px 0 0;
+  -moz-background-clip: padding;
+  border-radius: 20px 20px 0 0;
+  background-clip: padding-box;
+  border-bottom: 2px solid #eeeeee;
+  text-align: center;
+}
+#exam-result .result-area .result-display .subject label {
+  padding: 15px 0 0 0;
+  letter-spacing: 5px;
+  font-style: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
+}
+#exam-result .result-area .result-display fieldset {
+  padding: 20px;
+}
+#exam-search {
+  background-color: white;
+  margin-top: 90px;
+}
+@media (max-width: 767px) {
+  #exam-search {
+    margin-top: 50px;
+  }
+}
+#exam-search .search-area {
+  margin: 30px;
+  color: #777777;
+}
+@media (max-width: 767px) {
+  #exam-search .search-area {
+    margin: 30px 0;
+  }
+}
+#exam-search .search-area .title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#exam-search .search-area .search_form {
+  -webkit-border-radius: 20px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px;
+  -moz-background-clip: padding;
+  border-radius: 20px;
+  background-clip: padding-box;
+  border: 2px solid #eeeeee;
+  padding: 0;
+}
+#exam-search .search-area .search_form .subject {
+  background-color: #fff4c0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 20px 20px 0 0;
+  -moz-background-clip: padding;
+  border-radius: 20px 20px 0 0;
+  background-clip: padding-box;
+  border-bottom: 2px solid #eeeeee;
+  text-align: center;
+}
+#exam-search .search-area .search_form .subject label {
+  padding: 15px 0 0 0;
+  letter-spacing: 5px;
+  font-style: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
+}
+#exam-search .search-area .search_form fieldset {
+  padding: 20px;
+}
 #login {
   background-color: white;
   margin-top: 90px;
@@ -1385,6 +1487,19 @@ header #dropdown-wx-menu .wx_desc {
     padding: 20px 0px;
   }
 }
+#exam_content .key-subject {
+  padding-left: 10px;
+}
+#exam_content .marker p {
+  margin: 10px;
+  letter-spacing: 1px;
+}
+#exam_content .well {
+  margin: 10px;
+}
+#exam_content .well span {
+  margin-bottom: 10px;
+}
 #exam_content .exam_object {
   background-color: white;
   margin: 10px;
@@ -1421,6 +1536,10 @@ header #dropdown-wx-menu .wx_desc {
   #mycourse {
     margin-top: 50px;
   }
+  #mycourse .row {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
   #mycourse .course_img img {
     width: 100%;
   }
@@ -1434,16 +1553,29 @@ header #dropdown-wx-menu .wx_desc {
 }
 #mycourse .myscore h4 {
   color: #777777;
+  z-index: -1;
+  padding-left: 0;
 }
 #mycourse .myscore h5 {
   color: #5bc0de;
 }
 #mycourse .myscore .badge {
+  margin-top: 40px;
   font-size: 16px;
   border-radius: 30px;
   min-height: 60px;
   min-width: 30px;
   background-color: #f0ad4e;
+}
+@media (max-width: 991px) {
+  #mycourse .myscore .badge {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 80px;
+    min-height: 80px;
+    min-width: 80px;
+  }
 }
 #mycourse .myscore .score_style {
   color: #f0ad4e;
@@ -1467,6 +1599,11 @@ header #dropdown-wx-menu .wx_desc {
 #mycourse .mycourse .course_title {
   padding: 5px 5px 0;
   text-align: center;
+}
+@media (max-width: 767px) {
+  #mycourse .mycourse .course_title {
+    margin-bottom: 20px;
+  }
 }
 #mycourse .mycourse .button_list {
   padding-top: 10px;
@@ -1515,6 +1652,13 @@ header #dropdown-wx-menu .wx_desc {
   min-height: 20px;
   min-width: 20px;
   background-color: #f0ad4e;
+}
+#mycourse .mycourse .chapter .show_chapter {
+  text-align: right;
+  margin: 20px 20px 0 0;
+  color: #f0ad4e;
+  cursor: pointer;
+  letter-spacing: 2px;
 }
 #detail {
   color: #555555;

@@ -36,119 +36,77 @@
       <section class="col-lg-10 col-md-9">
         <div class="row">
           <div class="myscore">
-            <h4>我的收获</h4>
-            <div class="col-md-3 col-xs-6">
+            <div class="col-md-2 col-md-push-6 col-xs-4">
+              <a href=""><span class="badge badge-score"><br>笔记本<br>1</span></a>
+            </div>
+            <div class="col-md-2 col-md-push-6 col-xs-4">
+              <a href=""><span class="badge badge-score"></br>天天练<br>99</span></a>
+            </div>
+            <div class="col-md-2 col-md-push-6 col-xs-4">
+              <a href=""><span class="badge badge-score"></br>错题本<br>111</span></a>
+            </div>
+            <h4 class="col-md-6 col-md-pull-6 clearfix">我的收获</h4>
+            <div class="col-md-3 col-md-pull-6 col-sm-6 col-xs-6">
               <h5>收获米粒：<span class="score_style">31</span></h5>
               <h5>已学课程：<span class="score_style">3</span></h5>
             </div>
-            <div class="col-md-3 col-xs-6">
+            <div class="col-md-3 col-md-pull-6 col-sm-6 col-xs-6">
               <h5>收获表扬：<span class="score_style">19</span></h5>
               <h5>完成习题：<span class="score_style">89</span></h5>
             </div>
-            <div class="col-md-3 col-xs-6">
-              <a href=""><span class="badge"></br>笔记本</span></a>
-            </div>
-            <div class="col-md-3 col-xs-6">
-              <a href=""><span class="badge"></br>错题本</span></a>
-            </div>
+            
           </div><!-- myscore -->
 
         </div><!-- row -->
         <div class="row">
           <div class="mycourse">
             <h4>西门吹雪的班级</h4>
-            <div class="course_list clearfix">
-              <div class="col-md-10">
-                <div class="list_info">
-                  <div class="col-md-3">
-                    <div class="course_img">
-                      <img src="_/images/course_icon.jpg" alt="" class="img-rounded img-responsive">
-                    </div>
-                    <div class="course_title col-md-6 col-xs-6">
-                      <h5 class="bg-primary">数学</h5>
-                    </div>
-                    <div class="course_title col-md-6 col-xs-6">
-                      <h5 class="bg-danger">人教版</h5>
-                    </div>
+            <div class="course_list">
+              <div class="list_info clearfix">
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                  <div class="course_img">
+                    <img src="_/images/course_icon.jpg" alt="" class="img-rounded img-responsive">
                   </div>
-                  <div class="col-md-6">
-                    <div class="course_info clearfix">
-                      <h4>2015年初一年级春季同步班</h4>
-                      <h5>任课老师：曹克楠</h5>
-                      <h5>班级类别：超常班</h5>
-                      <h5>上课时间：每周五晚18:30-20:30</h5>
-
-                    </div>
+                  <div class="course_title col-md-6 col-xs-6">
+                    <h5 class="bg-primary">数学</h5>
                   </div>
-                  <div class="col-md-3">
-                    <div class="button_list">
-                      <a class="btn btn-success btn-block" href="http://localhost/haibian/course/course.html">去上课</a>
-                      <a class="btn btn-info btn-block">做作业</a>
-                      <h5><a href="">讨论问题</a></h5>
-                      <h5><a href="">添加评论</a></h5>
-                    </div>
+                  <div class="course_title col-md-6 col-xs-6">
+                    <h5 class="bg-danger">人教版</h5>
                   </div>
-
-                </div><!-- list_info -->
-              </div>
-              <div class="col-md-2">
-                <div class="note_exercise">
-                  <div class="col-md-12 col-xs-6">
-                    <a href=""><span class="badge"></br>笔记本</span></a>
-                  </div>
-                  <div class="col-md-12 col-xs-6">
-                    <a href=""><span class="badge"></br>错题本</span></a>
-                  </div>
-                  
                 </div>
-              </div>
-            </div>
-            <div class="course_list clearfix">
-              <div class="col-md-10">
-                <div class="list_info">
-                  <div class="col-md-3">
-                    <div class="course_img">
-                      <img src="_/images/course_icon.jpg" alt="" class="img-rounded img-responsive">
-                    </div>
-                    <div class="course_title col-md-6 col-xs-6">
-                      <h5 class="bg-primary">物理</h5>
-                    </div>
-                    <div class="course_title col-md-6 col-xs-6">
-                      <h5 class="bg-danger">人教版</h5>
-                    </div>
+                <div class="col-lg-7 col-md-6 col-sm-8">
+                  <div class="course_info clearfix">
+                    <h4>2015年初一年级春季同步班</h4>
+                    <h5>任课老师：曹克楠</h5>
+                    <h5>班级类别：超常班</h5>
+                    <h5>上课小区：线上互联网</h5>
+                    <h5>上课时间：每周五晚18:30-20:30</h5>
+                    
                   </div>
-                  <div class="col-md-6">
-                    <div class="course_info clearfix">
-                      <h4>2015年初一年级春季同步班</h4>
-                      <h5>任课老师：曹克楠</h5>
-                      <h5>班级类别：超常班</h5>
-                      <h5>上课时间：每周五晚18:30-20:30</h5>
-
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="button_list">
-                      <a class="btn btn-success btn-block">去上课</a>
-                      <a class="btn btn-info btn-block">查作业</a>
-                      <h5><a href="">讨论问题</a></h5>
-                      <h5><a href="">添加评论</a></h5>
-                    </div>
-                  </div>
-
-                </div><!-- list_info -->
-              </div>
-              <div class="col-md-2">
-                <div class="note_exercise">
-                  <div class="col-md-12 col-xs-6">
-                    <a href=""><span class="badge"></br>笔记本</span></a>
-                  </div>
-                  <div class="col-md-12 col-xs-6">
-                    <a href=""><span class="badge"></br>错题本</span></a>
-                  </div>
-                  
                 </div>
-              </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                  <div class="button_list">     
+                    <!-- <a class="btn btn-success btn-block" href="http://localhost/haibian/course/course.html">去上课</a>
+                    <a class="btn btn-info btn-block">做作业</a> -->
+                  </div>
+                </div>
+
+              </div><!-- list_info -->
+              <div class="chapter">
+                <div class="show_chapter">
+                <span data-toggle="collapse" data-target="#show_chapter">节次列表详情>></span>
+                </div>
+                <div class="collapse clearfix" id="show_chapter">
+                  <div class="location well clearfix">
+                    <?php include "_/components/php/chapter_list.php" ?>
+                  </div>
+                </div>
+                
+                
+              </div> <!-- chapter -->
+
             </div>
+            
             
           </div><!-- mycourse -->
         </div><!-- row -->
