@@ -630,8 +630,8 @@ header #dropdown-wx-menu .wx_desc {
 }
 #interaction {
   margin-top: 90px;
-  background: #ffffff url(../images/desk.jpg) no-repeat top center;
-  color: white;
+  color: #555555;
+  background: #eeeeee;
   font-family: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
 }
 #interaction .title {
