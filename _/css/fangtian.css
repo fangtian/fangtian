@@ -411,6 +411,57 @@ header #dropdown-wx-menu .wx_desc {
     margin-top: 50px;
   }
 }
+#teachers #teacher_from_bbs {
+  background-color: #eeeeee;
+  padding-top: 40px;
+}
+#teachers #teacher_profile {
+  background: #ffffff url(../images/teachers_hero.jpg) no-repeat top center;
+}
+#teachers #teacher_profile .title {
+  margin: 90px 0 60px;
+  text-align: center;
+  letter-spacing: 20px;
+}
+#teachers #teacher_profile .teacher_description {
+  margin-top: 80px;
+  background-color: white;
+}
+#teachers #teacher_profile .teacher_image {
+  padding: 20px;
+}
+#teachers #teacher_profile .teacher_video {
+  padding: 10px 20px 20px 20px;
+  letter-spacing: 0.2em;
+}
+#teachers #teacher_profile .teacher_video .btn {
+  line-height: 30px;
+  font-size: 24px;
+}
+#teachers #teacher_profile .teacher_name {
+  color: #555555;
+}
+#teachers #teacher_profile .teacher_name h1 {
+  font-size: 48px;
+  letter-spacing: 0.4em;
+}
+#teachers #teacher_profile .teacher_title {
+  color: #9b9b9b;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+#teachers #teacher_profile .teacher_resume {
+  color: #9b9b9b;
+}
+#teachers #teacher_profile .teacher_resume h2 {
+  font-size: 24px;
+  color: #555555;
+  letter-spacing: 0.2em;
+}
+#teachers #teacher_profile .teacher_resume p {
+  font-size: 18px;
+  line-height: 30px;
+}
 #teachers #teacher_desc {
   background: #eeeeee url(../images/teachers_hero.jpg) no-repeat top center;
 }

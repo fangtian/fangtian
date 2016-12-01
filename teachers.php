@@ -33,7 +33,7 @@
 
           <div class="row">
             <div class="title">
-              <h1>教师介绍</h1>
+              <h1>我们的老师</h1>
             </div>
           </div> <!-- row -->
           <div class="row">
