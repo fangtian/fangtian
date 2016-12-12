@@ -679,6 +679,23 @@ header #dropdown-wx-menu .wx_desc {
 #about .box-workteam .team_list_cv {
   color: #888888;
 }
+#about .box-contact {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #5bc0de;
+  color: white;
+}
+#about .box-contact p.marker {
+  color: #f0ad4e;
+}
+#about .box-contact .addressphone {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#about .box-contact .openinghousrs {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 #interaction {
   margin-top: 90px;
   color: #555555;
@@ -1762,6 +1779,7 @@ header #dropdown-wx-menu .wx_desc {
 #detail .complet {
   color: #f0ad4e;
   text-align: center;
+  padding: 6px;
 }
 #detail .available {
   border: 3px solid #d9534f;
@@ -1794,6 +1812,9 @@ header #dropdown-wx-menu .wx_desc {
 }
 #detail .teacher_info .teacher_special1 {
   color: #5bc0de;
+}
+#detail .teacher_info h4 {
+  border-bottom: none;
 }
 #detail .slider_menu .row {
   margin-bottom: 20px;

@@ -230,6 +230,7 @@
                       </div>
                     </div>
                     <div class="col-md-8">
+                      <h4>曹克楠老师</h4>
                       <h5 class="teacher_desc">曹克楠老师，毕业于北京航空航天大学。初一年级负责人。上课以激情，有活力著称。</h5>
                       <h5 class="teacher_special">授课特点：激情四射，严肃活泼。</h5>
                       <h5 class="teacher_special1">教学宣言：我在方田，我嗓门最大</h5>

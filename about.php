@@ -145,10 +145,48 @@
         </div> <!-- row -->
         
       </div> <!-- box-workteam -->
-      
+
     </div> <!-- container -->
+
+    
   </div> <!-- parallax-window -->
   
+  <div class="container">
+      <div class="box-contact clearfix">
+        <div class="col-md-6">
+          <div class="addressphone">
+            <h4><span class="glyphicon glyphicon-map-marker"></span> 联系我们</h4>
+            <hr/>
+            <p>
+              安庆路校区 0551-65103992 庐阳区安庆路205号金字楼6楼
+            </p>
+            <p>
+              北一环校区 0551-65103070 庐阳区亳州路301号金地大厦8楼
+            </p>
+            <p>
+              五里墩校区 0551-65103821 蜀山区长江西路与合作化南路交口金域国际15楼
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="openinghousrs">
+            <h4><span class="glyphicon glyphicon-calendar"></span> 前台工作时间</h4>
+            <hr/>
+            <p>
+              周二至周五 13:30-21:00
+            </p>
+            <p>
+              周六、周日 08:00-21:00
+            </p>
+            <p class="marker">
+              周一前台不上班
+            </p>
+          </div>
+        </div>
+        
+      </div> <!-- box-contact -->
+      
+    </div>
   
   
 
