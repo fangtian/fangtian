@@ -685,9 +685,6 @@ header #dropdown-wx-menu .wx_desc {
   background-color: #5bc0de;
   color: white;
 }
-#about .box-contact p.marker {
-  color: #f0ad4e;
-}
 #about .box-contact .addressphone {
   margin-bottom: 30px;
   margin-top: 30px;
@@ -1805,6 +1802,7 @@ header #dropdown-wx-menu .wx_desc {
   font-size: 18px ;
 }
 #detail .teacher_info {
+  font-family: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
   margin-bottom: 20px;
 }
 #detail .teacher_info .teacher_special {
@@ -1815,6 +1813,13 @@ header #dropdown-wx-menu .wx_desc {
 }
 #detail .teacher_info h4 {
   border-bottom: none;
+  font-family: "Microsoft YaHei", "微软雅黑", "黑体", Arial;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+#detail .teacher_info h5 {
+  letter-spacing: 0.05em;
+  line-height: 20px;
 }
 #detail .slider_menu .row {
   margin-bottom: 20px;
